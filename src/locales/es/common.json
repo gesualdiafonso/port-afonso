@@ -1,4 +1,59 @@
 {
-    "welcome_message": "Bienvenido a mi Next.js App",
-    "subtitle": "Ahora estamos demostrando el superpoder de la multilingua"
+    "welcome": {
+        "title": "Hola, soy Afonso Arruda Gesualdi",
+        "subtitle": "Un profesional multidisciplinario que conecta el diseño, la tecnología y la estrategia para transformar ideas en experiencias digitales con propósito.",
+        "span": "Uniendo Branding, Diseño y Desarrollo, creo soluciones completas que fortalecen marcas, elevan productos y conectan personas a través de la tecnología."
+    },
+    "about": {
+        "title": "Sobre mí",
+        "subtitle": "Brasileño que vive en Argentina hace más de 7 años. Graduado en Desarrollo y Diseño Web por Da Vinci y especializado en Branding Management por EBAC (Brasil).",
+        "paragraph1": "Durante mi trayectoria académica, estudié Ingeniería Industrial durante dos años en la Universidad de Palermo (UP), donde descubrí mi pasión por la programación con Python. Actualmente curso Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional (UTN).",
+        "paragraph2": "Tengo experiencia práctica y aplicada en Marketing Digital, Diseño Gráfico Digital y Comunicación de Marcas. Estoy certificado en tecnologías React, incluyendo Electron, Native, Express y Next.js, además de tener una sólida base en PHP y Laravel, Vue.js, Node.js, C#, versionado en GitLab, Python, Django, Flask y más. Trabajo con bases de datos relacionales y no relacionales."
+    },
+    "expertise": {
+        "title": "¿Qué es lo que mejor entrego?",
+        "highlights": [
+            "Creación y gestión de identidades visuales y marcas digitales.",
+            "Diseño UX/UI estratégico orientado a la experiencia del usuario.",
+            "Desarrollo de aplicaciones web y móviles con enfoque en rendimiento y escalabilidad.",
+            "Consultoría en Branding, Marketing Digital y posicionamiento de marca.",
+            "Integración entre diseño, storytelling y tecnología para resultados tangibles."
+        ]
+    },
+    "stack_tech": {},
+    "skills": {
+        "title": "Skills",
+        "items": [
+            "Visión multidisciplinaria y estratégica.",
+            "Equilibrio entre pensamiento analítico y creativo.",
+            "Gestión de Branding y posicionamiento estratégico de marca.",
+            "Alto dominio técnico y sensibilidad estética.",
+            "Capacidad para traducir conceptos complejos en interfaces intuitivas.",
+            "Gestión y creación de identidades visuales y sistemas de marca.",
+            "Análisis y optimización del rendimiento de productos.",
+            "Innovación tecnológica y experiencia centrada en el usuario."
+        ]
+    },
+    "social_links": {
+        "find": "Encuéntrame en las redes sociales",
+        "github": "https://github.com/gesualdiafonso",
+        "linkedin": "https://www.linkedin.com/in/afonso-gesualdi-aaa9bb244",
+        "behance": "https://www.behance.net/afonsogesualdi",
+        "instagram": "https://www.instagram.com/gesualdi.design",
+        "facebook": "https://www.facebook.com/people/Afonso-Gesualdi"
+    },
+    "contact": {
+        "title": "¿Hablamos?",
+        "subtitle": "Ponte en contacto conmigo",
+        "callto": "Transforma tus ideas en realidad con un diseño innovador, tecnológico y estratégico. ¡Crea lo que hará que tu negocio se destaque!",
+        "email": "gesualdiafonsoarr@gmail.com",
+        "location": "Ubicación: Buenos Aires, Argentina",
+        "form": {
+            "email": "Correo electrónico",
+            "name": "Tu nombre",
+            "company": "Nombre de la empresa (opcional)",
+            "numero": "Número de teléfono (opcional)",
+            "message": "Escribe tu mensaje..."
+        }
+    }
 }
