@@ -1,0 +1,42 @@
+import { motion, useScroll, useSpring, useTransform } from "motion/react"
+
+export default function ParallaxBacground() {
+    const { scrollYProgress } = useScroll();
+    const x = useSpring(scrollYProgress, { damping: 50 });
+    const backgroundY = useTransform(x, [0, 0.5], ["0%", "0%"]);
+    const sonY = useTransform(x, [0, 0.5], ["80%", "0%"]);
+    const montainGridY = useTransform(x, [0, 0.5], ["0%", "0%"]);
+
+    return(
+        <section className="absolute inset-0 bg-black/40">
+            <div className="relative w-full h-screen overflow-y-hidden">
+                <motion.div className="absolute inset-0 w-full h-screen -z-10"
+                    style={{
+                        backgroundImage: "url(/assets/images/parallax/ativo1.png",
+                        backgroundPosition: "bottom",
+                        backgroundSize: "cover",
+                        y: backgroundY
+                    }}
+                />
+                <motion.div className="absolute inset-0 z-30 w-96 h-96"
+                        style={{
+                            backgroundImage: "url(/assets/images/parallax/ativo2.png",
+                            backgroundPosition: "bottom",
+                            backgroundSize: "contain",
+                            y: sonY
+                        }}
+                    />
+                    <motion.div className="absolute w-full h-full inset-0 z-30" 
+                        style={{
+                            backgroundImage: "url(/assets/images/parallax/ativo3.png)",
+                            backgroundPosition: "bottom",
+                            backgroundSize: "contain",
+                            backgroundRepeat: "no-repeat",
+                            y: montainGridY
+                        }}
+                    />
+
+            </div>
+        </section>
+    )
+}

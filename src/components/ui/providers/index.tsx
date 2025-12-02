@@ -16,7 +16,7 @@ export default function Provider({ children }: Props){
     useEffect(() => {
         async function loadMessage(){
             try{
-                const section = ['common'];
+                const section = ['common', 'page'];
                 const imports = await Promise.all(
                     section.map((section) => 
                     import (`@/locales/${locale}/${section}.json`).then((mod) => ({
