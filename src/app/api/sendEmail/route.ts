@@ -45,10 +45,21 @@ export async function POST(req: Request) {
 
         return NextResponse.json({ success: true });
     } catch (error) {
-        // MUDANÇA AQUI: Captura o erro detalhado e o envia para o console do servidor.
-        console.error("Erro ao enviar email:", error.message || error);
+       let errorToLog;
+
+        // Se o erro for uma instância de Error (o caso mais comum), 
+        // usamos o stack ou a mensagem.
+        if (error instanceof Error) {
+            errorToLog = error.stack || error.message;
+        } else {
+            // Se for outro tipo (string, objeto, etc.), logamos o erro diretamente.
+            errorToLog = error;
+        }
+
+        // Loga a mensagem de erro formatada para o console do servidor
+        console.error("Erro ao enviar email:", errorToLog);
         
-        // Retorna uma mensagem genérica para o cliente, mas garante que o log no servidor seja útil.
+        // Retorna uma mensagem genérica para o cliente
         return NextResponse.json(
             { success: false, error: "Erro interno do servidor ao enviar e-mail. Consulte o log do servidor." },
             { status: 500 }
