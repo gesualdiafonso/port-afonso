@@ -6,6 +6,7 @@ import { useFrame } from "@react-three/fiber";
 import { useMotionValue, useSpring } from "motion/react";
 import * as THREE from 'three';
 import type { GroupProps } from "@react-three/fiber";
+// import type { ThreeElements } from "@react-three/fiber"; 
 import { GLTF } from 'three-stdlib';
 
 // Importa o hook de movimento (assumimos que este arquivo existe e funciona)
@@ -14,6 +15,13 @@ import { useDroidMovement } from "@/hooks/useDroidMovement";
 const DROID_MODEL_PATH = "/models/scene.gltf";
 // Garantia de ponto e vírgula para evitar erro ASI (Semicolon Insertion)
 useGLTF.preload(DROID_MODEL_PATH);
+
+// CORREÇÃO: Estendemos as propriedades do grupo através de ThreeElements['group']
+/*interface DroidProps extends ThreeElements['group'] {
+	// Propriedade para controlar a velocidade da animação GLTF
+	speed?: number;
+}
+*/
 
 interface DroidProps extends GroupProps {
     // Propriedade para controlar a velocidade da animação GLTF
