@@ -30,7 +30,7 @@ export default function Projects(){
     const y = useMotionValue(0);
     const springX = useSpring(x, { damping: 10, stiffness: 50 });
     const springY = useSpring(y, { damping: 10, stiffness: 50 });
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: React.MouseEvent) => {
         x.set(e.clientX + 20);
         y.set(e.clientY + 20);
     };
