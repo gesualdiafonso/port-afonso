@@ -1,5 +1,14 @@
 import { motion } from "motion/react";
-const CardStack = ({ style, text, image, containerRef }) => {
+import React from "react";
+
+interface CardStackProps {
+  style?: React.CSSProperties;
+  text?: string;
+  image?: string;
+  containerRef: React.RefObject<Element>;
+}
+
+const CardStack: React.FC<CardStackProps> = ({ style, text, image, containerRef }) => {
   return image && !text ? (
     <motion.img
       className="absolute w-15 cursor-grab"

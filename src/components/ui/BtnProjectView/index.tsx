@@ -2,7 +2,25 @@ import React, { useState } from "react"
 import ProjectDetails from "../ProjectDetails";
 
 
-export default function BtnProjectView({ title, image, description, list, tech, link, setPreview}){
+interface BtnProjectViewProps {
+    title: string;
+    image: string;
+    description: string;
+    list: string[];
+    tech: React.ReactNode;
+    link: string;
+    setPreview: (img: string | null) => void;
+}
+
+export default function BtnProjectView({
+    title,
+    image,
+    description,
+    list,
+    tech,
+    link,
+    setPreview
+}: BtnProjectViewProps) {
     const [isHidden, setIsHidden] = useState(false);
 
     return(
