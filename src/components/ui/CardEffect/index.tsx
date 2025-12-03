@@ -63,6 +63,7 @@ export default function CardEffects (
   );
 };
 
+/*
 const Noise = () => {
     return (
         <div
@@ -74,3 +75,4 @@ const Noise = () => {
         ></div>
       );
 }
+      */

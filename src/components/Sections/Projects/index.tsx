@@ -44,7 +44,7 @@ export default function Projects(){
             : allProjects.filter(p => p.category === filter);
 
     return(
-        <section className="h-full w-full bg-black">
+        <section className="h-full w-full bg-black" id="projects">
             <Container>
                 <section 
                     onMouseMove={handleMouseMove}

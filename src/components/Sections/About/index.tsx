@@ -18,7 +18,7 @@ export default function Welcome(){
 
     const grid2container = useRef();
     return(
-        <section className="">
+        <section className="" id="about">
             <Container>
                 <h1>{tA('title')}</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-7xl mx-auto w-full">

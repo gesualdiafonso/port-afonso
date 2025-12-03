@@ -69,13 +69,13 @@ export default function Contact() {
 
       if (res.ok && result.success) {
         setSuccess(true);
-        router.push("/thanks");
+        router.push("/home");
       } else {
         throw new Error(result?.error || "Submit error");
       }
 
     } catch (error: any) {
-      setErrorMessage(t('form.error'));
+      setErrorMessage(t('form.error') || error);
     } finally {
       setLoading(false);
     }
@@ -91,7 +91,7 @@ export default function Contact() {
         hoverFillColor="rgba(149, 0, 255, 0.1)"
       />
 
-      <section className="relative top-28">
+      <section className="relative top-28" id='contact'>
         <Container>
 
           <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
