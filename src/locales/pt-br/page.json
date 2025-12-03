@@ -352,75 +352,87 @@
         "reviews" : [
             {
                "name": "Thayza Alves",
+               "post": "Analista de Sistemas",
                "company": "Não especificado",
                "body": "Trabalhar com Afonso foi uma experiência notável, colaborativa e precisa. Com uma mente focada na estrutura e na arquitetura, ele identifica necessidades, resolve problemas rapidamente e eleva a qualidade do trabalho coletivo com seu feedback sobre novas implementações.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/thayzafoto.jpg"
             },
             {
                "name": "Paulo Gesualdi",
+               "post": "Dono da Empresa",
                "company": "Funeraría do Paulinho",
                "body": "Afonso criou um site que transformou a presença digital dos nossos serviços funerários. Sua perspectiva sobre como adaptar a experiência do usuário ao nosso público, combinada com sua precisão técnica, permitiu-nos oferecer clareza, confiança e profissionalismo a todos os visitantes que interagem com nossa plataforma. Ele também redesenhou nossa marca de forma limpa e clara, atraindo mais fornecedores para o nosso coletivo.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/paulo.jpg"
             },
             {
                "name": "Jussara Gesualdi",
+               "post": "Dona da Empresa",
                "company": "Loja do Braz",
                "body": "Afonso é extremamente dedicado e atento aos detalhes. Sua capacidade de compreender as necessidades comerciais e convertê-las em soluções funcionais e modernas eleva a identidade digital da marca, ao mesmo tempo em que otimiza os fluxos de trabalho internos.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/jussara.jpg"
             },
             {
-               "name": "Maria Eduarda Araujo",
+               "name": "Fernando de Araujo",
+               "post": "Full Stack Software",
                "company": "Não especificado",
                "body": "Afonso é o tipo de colega de equipe que traz direção e equilíbrio. Ele ouve, estrutura ideias e orienta a equipe com uma mentalidade calma e estratégica que mantém todos os projetos no caminho certo.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/fernando.jpg"
             },
             {
                "name": "Thiago dos Santos",
+               "post": "Administrador da Empresa",
                "company": "Funeraría Vida Plus",
                "body": "Afonso developed our institutional website with an impressive level of refinement and scalability. His vision for future expansion, accessibility for older audiences, and strong digital branding positioned our company at a new professional standard.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/thiago.jpg"
             },
             {
                "name": "Tatiane dos Santos",
+               "post": "Administrativo",
                "company": "Funeraría Vida Plus",
                "body": "Cada etapa do projeto foi tratada com cuidado e precisão. Afonso compreendeu profundamente os nossos valores e traduziu-os numa experiência digital limpa, acessível e confiável, que representa verdadeiramente o nosso serviço.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/tatiane.jpg"
             },
             {
                "name": "Queila dos Santos",
+               "post": "Administrativo",
                "company": "Funeraría Vida Plus",
                "body": "Afonso elevou a imagem da nossa marca com um site que não só é visualmente forte, mas também tecnicamente preparado para integrações futuras. Seu profissionalismo, organização e visão tornaram todo o processo tranquilo e confiável.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/queila.jpg"
             },
             {
                "name": "Priscilla Tanaka",
+               "post": "Dona da Empresa",
                "company": "Tanaka's Floricultura",
                "body": "Afonso criou nosso sistema de gestão com clareza e uma compreensão impressionante das reais necessidades operacionais. O software é intuitivo, seguro e perfeitamente alinhado com nosso fluxo de trabalho, melhorando tanto a eficiência interna quanto o atendimento ao cliente.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/priscilla.jpg"
             },
             {
                "name": "Maria Eduarda Tanaka",
+               "post": "Gerente de Marketing",
                "company": "Tanaka's Floricultura",
                "body": "O design do seu sistema é simples de usar, mas poderoso. Afonso criou uma interface que até mesmo usuários sem conhecimentos técnicos podem navegar com facilidade, e isso transformou completamente a forma como gerenciamos clientes, planos e operações diárias.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/duda.jpg"
             },
             {
                "name": "Denis Tanaka",
+               "post": "Administrativo",
                "company": "Tanaka's Floricultura",
                "body": "Seu trabalho em nossa plataforma de gerenciamento foi claro e conciso. A autenticação, a estrutura para criar, adicionar, editar e até mesmo excluir e desativar um serviço é rápida, e o painel de administração facilitou a adição de nossos funcionários, modernizando toda a nossa operação.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/denis.jpg"
             },
             {
                "name": "Luiz Henrique Almeida",
+               "post": "Arquiteto",
                "company": "Aurea Design",
                "body": "Ele soube traduzir a visão estética em uma arquitetura digital funcional. Nosso site de portfólio é visualmente impressionante, otimizado para desempenho e estrategicamente aprimorado com SEM, o que eleva a relevância online do nosso estúdio.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/luiz.jpg"
             },
             {
                "name": "Cassia Fernandez",
+               "post": "Design de Interiores",
                "company": "Aurea Design",
                "body": "Trabalhar com Afonso foi muito fácil. Sua atenção aos detalhes, comunicação e visão criativa nos permitiram apresentar nosso trabalho de design online com elegância, precisão e um forte senso de identidade.",
-               "image": "/assets/avatar/"
+               "image": "/assets/avatar/cassia.jpg"
             }
         ]
     },

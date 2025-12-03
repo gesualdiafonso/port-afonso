@@ -3,7 +3,7 @@ import Marquee from "@/components/ui/Marquee";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const ReviewCard = ({ name, company, body, image }) => {
+const ReviewCard = ({ name, post, company, body, image }) => {
     return(
         <figure
       className={twMerge(
@@ -22,7 +22,7 @@ const ReviewCard = ({ name, company, body, image }) => {
           <figcaption className="text-sm font-medium text-white">
             {name}
           </figcaption>
-          <p className="text-xs font-medium text-white/40">{name}</p>
+          <p className="text-xs font-medium text-white/40">{post}</p>
           <span>{company}</span>
         </div>
       </div>

@@ -11,7 +11,7 @@ interface Props {
 export default function Provider({ children }: Props){
     const { locale } = useLocaleStore();
     
-    const [message, setMessage] = useState<any>(null);
+    const [message, setMessage] = useState(null);
 
     useEffect(() => {
         async function loadMessage(){
