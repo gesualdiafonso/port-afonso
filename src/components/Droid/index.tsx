@@ -16,7 +16,7 @@ const DROID_MODEL_PATH = "/models/scene.gltf";
 // Garantia de ponto e vírgula para evitar erro ASI (Semicolon Insertion)
 useGLTF.preload(DROID_MODEL_PATH);
 
-// CORREÇÃO: Estendemos as propriedades do grupo através de ThreeElements['group']
+// CORREÇÃO: Estendemos as propriedades do grupo através de ThreeElements['group'].
 /*interface DroidProps extends ThreeElements['group'] {
 	// Propriedade para controlar a velocidade da animação GLTF
 	speed?: number;
