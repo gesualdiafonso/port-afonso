@@ -74,8 +74,19 @@ export default function Contact() {
         throw new Error(result?.error || "Submit error");
       }
 
-    } catch (error: any) {
-      setErrorMessage(t('form.error') || error);
+    } catch (error: unknown) {
+      let message = t('form.error') || "An unknown error occurred.";
+      
+      if (error instanceof Error) {
+        // Se for um objeto Error, use a mensagem dele
+        message = t('form.error') || error.message; 
+      } else if (typeof error === 'string') {
+        // Se for uma string (menos comum, mas possível)
+        message = t('form.error') || error;
+      }
+
+      // Se t('form.error') retornar uma string, ele sempre terá prioridade
+      setErrorMessage(t('form.error') || message);
     } finally {
       setLoading(false);
     }
