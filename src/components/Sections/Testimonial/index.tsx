@@ -3,7 +3,7 @@ import Marquee from "@/components/ui/Marquee";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const ReviewCard = ({ name, post, company, body, image }) => {
+const ReviewCard = ({ name, post, company, body, image }: { name: string; post: string; company: string; body: string; image: string }) => {
     return(
         <figure
       className={twMerge(
@@ -47,12 +47,12 @@ export default function Testimonial (){
             <h2 className="text-heading">{t('title')}</h2>
             <div className="relative flex flex-col items-center justify-center w-full mt-12 overflow-hidden">
                 <Marquee pauseOnHover className="[--duration:20s]">
-                {firstRow.map((reviews) => (
+                {firstRow.map((reviews: { name: string; post: string; company: string; body: string; image: string }) => (
                     <ReviewCard key={reviews.name} {...reviews} />
                 ))}
                 </Marquee>
                 <Marquee reverse pauseOnHover className="[--duration:20s]">
-                {secondRow.map((reviews) => (
+                {secondRow.map((reviews: { name: string; post: string; company: string; body: string; image: string }) => (
                     <ReviewCard key={reviews.name} {...reviews} />
                 ))}
                 </Marquee>

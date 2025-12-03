@@ -12,15 +12,15 @@ export default function Projects(){
 
     // Normalizo para un array
     const allProjects = [
-        ...Object.values(raw.freelancers).map(p => ({
+        ...Object.values(raw.freelancers).map((p: any) => ({
             ...p,
             category: "freelancer"
         })),
-        ...Object.values(raw.academyc.fullstack).map(p =>({
+        ...Object.values(raw.academyc.fullstack).map((p: any) =>({
             ...p,
             category: "fullstack"
         })),
-        ...Object.values(raw.academyc.desktop).map(p => ({
+        ...Object.values(raw.academyc.desktop).map((p: any) => ({
             ...p,
             category: "desktop"
         }))
