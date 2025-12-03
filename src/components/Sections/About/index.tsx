@@ -2,12 +2,9 @@ import { useRef } from "react";
 import Container from "@/components/ui/container"
 import { useTranslations   } from "next-intl"
 import { AboutType } from "@/types/i18n/AboutType"
-import Squares from "@/components/ui/GridBackground";
 import CardEffects from "@/components/ui/CardEffect";
-import { ExpertiseType, SkillType } from "@/types/i18n/OtherType";
 import { Frameworks } from "@/components/ui/Frameworks";
 import CardStack from "@/components/ui/CardStack";
-import BackgroundImg from "@/components/ui/BackGroundImg";
 import CopyEmailButton from "@/components/ui/CopyEmailButton";
 
 

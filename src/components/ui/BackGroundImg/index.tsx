@@ -1,5 +1,5 @@
-import Background from "../../../../public/assets/images/background2.jpg"
-import Image from "next/image"
+// import Background from "../../../../public/assets/images/background2.jpg"
+// import Image from "next/image"
 import Squares from "../GridBackground"
 
 export default function BackgroundImg( {children}: {children: React.ReactNode}){

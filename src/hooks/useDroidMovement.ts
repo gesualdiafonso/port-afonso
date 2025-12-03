@@ -1,5 +1,5 @@
 // src/hooks/useDroidMovement.ts
-import { useState, useEffect, useCallback } from 'react';
+import { useEffect, useCallback } from 'react';
 import { useMotionValue, useSpring } from 'motion/react';
 import { Spring } from 'popmotion'; // Para tipagem
 

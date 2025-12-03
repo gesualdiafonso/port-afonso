@@ -2,7 +2,6 @@
 import Hero from "@/components/Sections/Hero";
 import About from "@/components/Sections/About"
 import BackgroundImg from "@/components/ui/BackGroundImg";
-import Squares from "@/components/ui/GridBackground";
 import NavBar from "@/components/ui/navbar";
 import Projects from "@/components/Sections/Projects";
 import Experience from "@/components/Sections/Experience";

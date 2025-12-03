@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { motion, useMotionValue, useSpring } from "motion/react"
-import { useMessages, useTranslations   } from "next-intl"
+import { useMessages } from "next-intl"
 import Container from "@/components/ui/container";
 import BtnProjectView from "@/components/ui/BtnProjectView";
 

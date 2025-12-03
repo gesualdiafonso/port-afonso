@@ -1,13 +1,10 @@
 "use client";
 import {
-  useMotionValueEvent,
   useScroll,
   useTransform,
   motion,
 } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
-import { useTranslations } from 'next-intl'
-import { AboutType } from '@/types/i18n/About'
 
 interface TimelineEntry {
   title: string;

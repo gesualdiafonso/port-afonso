@@ -1,5 +1,4 @@
 'use client'
-import Container from "@/components/ui/container"
 import { useTranslations   } from "next-intl"
 import { WelcomeType } from "@/types/i18n/Welcome"
 import ParallaxBacground from "@/components/ui/ParallaxBackground"

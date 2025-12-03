@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils/utils";
-import Squares from "@/components/GridBackground";
 
 export default function CardEffects (
     { children, containerClassName, className} 
