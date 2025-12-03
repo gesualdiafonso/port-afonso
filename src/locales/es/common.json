@@ -3,6 +3,15 @@
         "contact": "Contáctame",
         "download": "Descargar CV"
     },
+    "emailContat": {
+        "title": "¿Quieres iniciar un contacto?",
+        "copy": "Copiar Correo"
+    },
+    "cv": {
+        "title": "Descarga mi currículum o visita mi perfil de LinkedIn.",
+        "btn": "Descargar CV",
+        "linkdIn": "Perfil del LinkedIn"
+    },
     "btnHero": {
         "contact": "Ponerse en contacto"
     },

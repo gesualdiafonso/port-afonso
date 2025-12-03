@@ -3,6 +3,15 @@
         "contact": "Fale comigo",
         "download": "Baixar CV"
     },
+    "emailContat": {
+        "title": "Quer entrar em contato?",
+        "copy": "Copiar Email"
+    },
+    "cv": {
+        "title": "Baixe meu currículo ou veja meu LinkedIn.",
+        "btn": "Download CV",
+        "linkdIn": "Perfil LinkedIn"
+    },
     "btnHero": {
         "contact": "Entre em contato"
     },
@@ -18,8 +27,6 @@
         "contact": "Contato"
     },
     "footer": {
-        "rights": "© 2023 Todos os direitos reservados.",
-        "social": "Siga-me nas redes sociais",
-        "developed": "Desenvolvido por Afonso Gesualdi"
+        "rights": "© 2023 Todos os direitos reservados."
     }
 }

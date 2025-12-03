@@ -19,7 +19,6 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
 
-  const t = useTranslations<'about', AboutType>('about');
 
   useEffect(() => {
     if (ref.current) {

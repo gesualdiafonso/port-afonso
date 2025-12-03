@@ -8,18 +8,12 @@ import Projects from "@/components/Sections/Projects";
 import Experience from "@/components/Sections/Experience";
 import Testimonial from "@/components/Sections/Testimonial";
 import Contact from "@/components/Sections/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home(){
   return(
     <>
     <Hero/>
-    <Squares 
-        speed={0.5}
-        squareSize={40}
-        direction="up"
-        borderColor="rgba(22, 19, 240, 0.2)"
-        hoverFillColor="rgba(149, 0, 255, 0.1)"
-       />
     <BackgroundImg>
         <About />
         <Projects />
@@ -28,6 +22,7 @@ export default function Home(){
         <Contact />
     </BackgroundImg>
     <NavBar />
+    <Footer/>
     </>
   )
 }

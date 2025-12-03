@@ -2,11 +2,14 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { IoCopyOutline } from "react-icons/io5";
 import { MdOutlineLibraryAddCheck } from "react-icons/md";
+import { useTranslations } from "next-intl";
 
 
 const CopyEmailButton = () => {
   const [copied, setCopied] = useState(false);
-  const email = "Your Email Address";
+  const email = "gesualdiafonsoarr@outlook.com";
+
+  const tC = useTranslations('common.emailContat')
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email);
@@ -46,7 +49,7 @@ const CopyEmailButton = () => {
             transition={{ duration: 0.1 }}
           >
             < IoCopyOutline />
-            Copy Email Address
+            {tC('copy')}
           </motion.p>
         )}
       </AnimatePresence>

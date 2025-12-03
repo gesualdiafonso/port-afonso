@@ -13,9 +13,11 @@ import CopyEmailButton from "@/components/ui/CopyEmailButton";
 
 
 export default function Welcome(){
+    const tCMail = useTranslations('common.emailContat');
+    const tCCV =  useTranslations('common.cv');
     const tA = useTranslations<'about', AboutType>('page.about');
-    const tE = useTranslations<'expertise', ExpertiseType>('page.expertise');
-    const tS = useTranslations<'skills', SkillType>('page.skills');
+    const tE = useTranslations('page.expertise');
+    const tS = useTranslations('page.skills');
 
     const grid2container = useRef();
     return(
@@ -78,13 +80,13 @@ export default function Welcome(){
 
                     <CardEffects containerClassName="col-span-1">
                         <div className="px-10 text-center flex flex-col justify-center items-center gap-5">
-                            <h2 className="text-3xl font-bold">Do you want to start a contact?</h2>
+                            <h2 className="text-3xl font-bold">{tCMail('title')}</h2>
                             <CopyEmailButton />
                         </div>
                     </CardEffects>
                     <CardEffects containerClassName="col-span-1">
                         <div className="px-10 text-center flex flex-col justify-center items-center gap-5">
-                            <h2 className="text-3xl font-bold">Descargue meu cv</h2>
+                            <h2 className="text-3xl font-bold">{tCCV('title')}</h2>
                             <CopyEmailButton />
                         </div>
                     </CardEffects>
