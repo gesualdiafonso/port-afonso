@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import Container from "@/components/ui/container"
 import { useTranslations   } from "next-intl"
-import { AboutType } from "@/types/i18n/AboutType"
+// import { AboutType } from "@/types/i18n/AboutType"
 import CardEffects from "@/components/ui/CardEffect";
 import { Frameworks } from "@/components/ui/Frameworks";
 import CardStack from "@/components/ui/CardStack";
@@ -12,11 +12,11 @@ import CopyEmailButton from "@/components/ui/CopyEmailButton";
 export default function Welcome(){
     const tCMail = useTranslations('common.emailContat');
     const tCCV =  useTranslations('common.cv');
-    const tA = useTranslations<'about', AboutType>('page.about');
+    const tA = useTranslations('page.about');
     const tE = useTranslations('page.expertise');
     const tS = useTranslations('page.skills');
 
-    const grid2container = useRef();
+    const grid2container = useRef<HTMLDivElement>(null);
     return(
         <section className="" id="about">
             <Container>
@@ -55,6 +55,7 @@ export default function Welcome(){
                                             top: `${50 + index * 20}%`,
                                             left: `${20 + index * 3}%`,
                                         }}
+                                        image=""
                                         text={item}
                                         containerRef={grid2container}
                                         />
