@@ -63,7 +63,7 @@ export default function ProjectDetails ({ title, image, description, list, tech,
                     </ul>
                     
                     <a 
-                        className="group relative w-full cursor-pointer overflow-hidden rounded-full border border-gray-200 bg-white px-5 py-2 text-center font-medium text-gray-900 shadow-sm transition-all duration-300 hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:text-white dark:hover:border-gray-700" 
+                        className="group relative w-full h-full cursor-pointer overflow-hidden rounded-full border border-gray-200 bg-white px-5 py-2 text-center font-medium text-gray-900 shadow-sm transition-all duration-300 hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:text-white dark:hover:border-gray-700" 
                         href={link}
                     >
                         <div className="flex items-center gap-3">
