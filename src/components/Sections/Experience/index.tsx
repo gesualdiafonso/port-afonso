@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { Timeline } from "@/components/ui/TimeLine";
-import Squares from "@/components/ui/GridBackground";
 
 export default function Experience() {
     const t = useTranslations("page.experience");
@@ -35,13 +34,6 @@ export default function Experience() {
         <section className="relative w-full h-full max-h-[1980px] overflow-clip">
             <h3>{t('title')}</h3>
             <Timeline data={data} />
-            <Squares 
-                    speed={0.5}
-                    squareSize={40}
-                    direction="up"
-                    borderColor="rgba(22, 19, 240, 0.2)"
-                    hoverFillColor="rgba(149, 0, 255, 0.1)"
-                />
         </section>
     );
 }

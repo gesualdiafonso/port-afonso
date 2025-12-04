@@ -1,7 +1,6 @@
 'use client'
 
 import Container from '@/components/ui/container';
-import Squares from '@/components/ui/GridBackground';
 import { useState } from 'react';
 import { useRouter } from "next/navigation";
 import { useForm } from 'react-hook-form';
@@ -74,7 +73,7 @@ export default function Contact() {
         throw new Error(result?.error || "Submit error");
       }
 
-    } catch (error: unknown) {
+    }  catch (error: unknown) {
       let message = t('form.error') || "An unknown error occurred.";
       
       if (error instanceof Error) {
@@ -94,18 +93,11 @@ export default function Contact() {
 
   return (
     <>
-      <Squares 
-        speed={0.5}
-        squareSize={40}
-        direction="up"
-        borderColor="rgba(22, 19, 240, 0.2)"
-        hoverFillColor="rgba(149, 0, 255, 0.1)"
-      />
 
-      <section className="relative top-28" id='contact'>
+      <section className="pt-30 h-full" id='contact'>
         <Container>
 
-          <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 pb-30">
 
             {/* Left Content */}
             <div className="w-full px-5 flex flex-col justify-center">

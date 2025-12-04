@@ -10,7 +10,7 @@ export default function Hero(){
         <section className="h-screen" id="home">
             <SceneWrapper />
             <ParallaxBacground />
-            <div className="absolute top-0 right-0 flex justify-center items-center flex-col">
+            <div className="absolute top-3/6 right-0 flex justify-center items-center flex-col">
                 <h1>{t('title')}</h1>
                 <p>{t('subtitle')}</p>
             </div>
