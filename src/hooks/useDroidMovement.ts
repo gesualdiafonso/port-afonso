@@ -1,13 +1,11 @@
 // src/hooks/useDroidMovement.ts
 import { useEffect, useCallback } from 'react';
-import { useMotionValue, useSpring } from 'motion/react';
-import { Spring } from 'popmotion'; // Para tipagem
+import { useMotionValue, useSpring, MotionValue } from 'motion/react';
 
 interface MovementState {
-  rotationX: Spring<number>;
-  rotationY: Spring<number>;
+  rotationX: MotionValue<number>;
+  rotationY: MotionValue<number>;
 }
-
 /**
  * Hook customizado para rastrear o mouse e retornar valores de rotação suaves (Spring).
  * @returns {MovementState} Valores Motion Spring para rotação X e Y.

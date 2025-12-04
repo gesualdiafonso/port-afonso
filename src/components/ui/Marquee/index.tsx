@@ -1,4 +1,16 @@
 import { twMerge } from "tailwind-merge";
+import { ReactNode } from "react";
+
+interface MarqueeProps {
+  className?: string;
+  reverse?: boolean;
+  pauseOnHover?: boolean;
+  children: ReactNode;
+  vertical?: boolean;
+  repeat?: number;
+  [key: string]: any;
+}
+
 export default function Marquee({
   className,
   reverse = false,
@@ -7,7 +19,7 @@ export default function Marquee({
   vertical = false,
   repeat = 4,
   ...props
-}) {
+}: MarqueeProps) {
   return (
     <div
       {...props}

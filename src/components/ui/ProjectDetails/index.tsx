@@ -1,7 +1,17 @@
 import { motion } from "motion/react"
 import Image from "next/image"
 
-export default function ProjectDetails ({ title, image, description, list, tech, link, closeModal }){
+interface ProjectDetailsProps {
+    title: string;
+    image: string;
+    description: string;
+    list: string[];
+    tech: string[];
+    link: string;
+    closeModal: () => void;
+}
+
+export default function ProjectDetails ({ title, image, description, list, tech, link, closeModal }: ProjectDetailsProps){
     return(
         <div className="fixed bg-gray-900/50 inset-0 z-50 felx items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
             <motion.div

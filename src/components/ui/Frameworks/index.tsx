@@ -83,21 +83,21 @@ import { DiPhotoshop, DiIllustrator, DiTerminal } from "react-icons/di";
 
 export function Frameworks() {
   return (
-    <div className="relative flex h-[2rem] w-full flex-col items-center justify-center">
+    <div className="relative flex h-[10rem] w-full flex-col items-center justify-center">
       
       {/* Círculo maior */}
-      <OrbitingCircles iconSize={30}>
+      <OrbitingCircles iconSize={60} className="m-1">
         {stacks.map((key, index) => {
-          const { icon: Icon, color } = iconMap[key];
-          return <Icon key={index} size={30} color={color} />;
+          const { icon: Icon, color } = iconMap[key as keyof typeof iconMap];
+          return <Icon key={index} size={22} color={color} />;
         })}
       </OrbitingCircles>
 
       {/* Círculo interno */}
-      <OrbitingCircles iconSize={30} radius={100} reverse speed={2}>
+      <OrbitingCircles iconSize={30} radius={100} reverse speed={2} className="m-2">
         {stacks.map((key, index) => {
-          const { icon: Icon, color } = iconMap[key];
-          return <Icon key={index} size={30} color={color} />;
+          const { icon: Icon, color } = iconMap[key as keyof typeof iconMap];
+          return <Icon key={index} size={15} color={color} />;
         })}
       </OrbitingCircles>
     </div>

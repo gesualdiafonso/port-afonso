@@ -3,24 +3,16 @@ import ProjectDetails from "../ProjectDetails";
 
 
 interface BtnProjectViewProps {
-    title: string;
-    image: string;
-    description: string;
-    list: string[];
-    tech: React.ReactNode;
-    link: string;
-    setPreview: (img: string | null) => void;
+  title: string;
+  image: string;
+  description: string;
+  list: string[];
+  tech: string[];
+  link: string;
+  setPreview: (image: string | null) => void;
 }
 
-export default function BtnProjectView({
-    title,
-    image,
-    description,
-    list,
-    tech,
-    link,
-    setPreview
-}: BtnProjectViewProps) {
+export default function BtnProjectView({ title, image, description, list, tech, link, setPreview }: BtnProjectViewProps){
     const [isHidden, setIsHidden] = useState(false);
 
     return(

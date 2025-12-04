@@ -22,7 +22,7 @@ export default function CardEffects (
     setMousePosition({ x, y });
   };
   return (
-    <motion.section
+    <motion.div
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => {
@@ -59,7 +59,7 @@ export default function CardEffects (
           {children}
         </motion.div>
       </div>
-    </motion.section>
+    </motion.div>
   );
 };
 
