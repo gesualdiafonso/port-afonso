@@ -1,8 +1,9 @@
+import React from "react";
 import { motion } from "motion/react";
 import { FlipWords } from "../FlipWords";
 import { useTranslations } from "next-intl";
 
-export default function HeroText(): JSX.Element {
+export default function HeroText(): React.JSX.Element {
     const t = useTranslations('page.welcome')
     // Donde deberan entrar los words para que sean traducidos desde page.welcome.json
     const words = t.raw('words')
