@@ -14,7 +14,7 @@ export default function HeroText(): React.JSX.Element {
     }
 
     return(
-        <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
+        <div className="z-10 mt-20 text-center md:mt-0 md:text-left rounded-3xl bg-clip-text">
             {/* Desktop View */}
             <div className="flex-col hidden md:flex c-space">
                 <motion.h1
@@ -28,7 +28,7 @@ export default function HeroText(): React.JSX.Element {
                 </motion.h1>
                 <div className="flex flex-col items-start">
                 <motion.p
-                    className="md:text-4xl lg:text-5xl font-medium text-neutral-300"
+                    className="text-4xl lg:text-5xl w-full font-medium text-neutral-300"
                     variants={variants}
                     initial="hidden"
                     animate="visible"
@@ -48,7 +48,7 @@ export default function HeroText(): React.JSX.Element {
                     />
                 </motion.div>
                 <motion.p
-                    className="text-4xl font-medium text-neutral-300"
+                    className="text-3xl font-black text-neutral-400 w-full"
                     variants={variants}
                     initial="hidden"
                     animate="visible"

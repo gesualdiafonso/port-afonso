@@ -38,7 +38,7 @@ export const SceneWrapper: React.FC<SceneWrapperProps> = ({ isMobile, className}
   return (
     <div className={className}>
       <Canvas 
-        className='z-40 mt-30 md:mt-40 lg:mt-50'
+        className='z-40'
         // HABILITA TRANSPARÊNCIA: gl={{ alpha: true }} permite que o fundo seja transparente
         gl={{ alpha: true }}
         // flat previne problemas de tone-mapping (boa prática)

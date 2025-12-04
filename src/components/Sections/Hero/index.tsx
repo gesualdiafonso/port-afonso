@@ -15,7 +15,7 @@ export default function Hero(){
             <div className={`absolute z-50 p-4 transition-all duration-500
                 ${isMobile 
                     ? 'top-20 left-0 w-full text-center' // Mobile: Centralizado no topo
-                    : 'top-1/2 left-[5%] transform -translate-y-1/2 w-[50%] max-w-lg text-left' // Desktop: Esquerda, no meio
+                    : 'top-1/2 left-[10%] transform -translate-y-1/2 w-[55%] max-w-lg text-left' // Desktop: Esquerda, no meio
                 }`}
             >
                 <HeroText />
