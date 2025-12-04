@@ -29,7 +29,7 @@ export default function BtnProjectView({ title, image, description, list, tech, 
             >
                 <div>
                     <p className="text-2xl">{title}</p>
-                    <div className="flex gap-5 mt-2 text-sand">
+                    <div className="flex gap-2 md:gap-5 mt-2 text-cyan-600 w-full">
                         {(techIcons ?? []).map((item, index) => {
                             const IconComponent = item.iconData?.icon;
                             return IconComponent ? (

@@ -21,7 +21,7 @@ const CardStack: React.FC<CardStackProps> = ({ style, text, image, containerRef 
     />
   ) : (
     <motion.div
-      className="absolute px-1 py-4 text-md text-center rounded-full bg-gray-900/90 ring ring-gray-700 font-extralight bg-storm w-1/3 cursor-grab"
+      className="absolute px-1 py-4 text-sm md:text-md text-center rounded-full bg-gray-900/90 ring ring-gray-700 font-extralight bg-storm w-[55%] md:w-1/3 cursor-grab"
       style={style}
       whileHover={{ scale: 1.05 }}
       drag

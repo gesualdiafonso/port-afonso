@@ -32,7 +32,7 @@ export default function Experience() {
 
     return (
         <section className="relative w-full h-full max-h-[1980px] overflow-clip">
-            <h3>{t('title')}</h3>
+            <h3 className="text-center font-bold text-3xl py-10">{t('title')}</h3>
             <Timeline data={data} />
         </section>
     );

@@ -50,9 +50,9 @@ export default function Projects(){
                     onMouseMove={handleMouseMove}
                     className="relative c-space section-spacing bg-black w-full h-auto py-10"
                     >
-                        <h2 className="text-3xl font-bold">{raw.title}</h2>
+                        <h2 className="text-3xl text-center md:text-left font-bold">{raw.title}</h2>
                         {/* Filtro */}
-                        <div className="flex gap-4 mt-10">
+                        <div className="flex flex-col md:flex-row gap-4 mt-10">
                             {["all", "freelancer", "fullstack", "desktop"].map(type => (
                                 <button
                                     key={type}

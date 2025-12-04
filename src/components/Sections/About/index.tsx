@@ -17,35 +17,28 @@ export default function Welcome(){
 
     const grid2container = useRef<HTMLDivElement>(null);
     return(
-        <section className="" id="about">
+        <section className="px-5 w-full" id="about">
             <Container>
-                <h1>{tA('title')}</h1>
+                <h1 className="text-center font-bold text-3xl py-10">{tA('title')}</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-7xl mx-auto w-full">
-                    <CardEffects containerClassName="col-span-1 h-full  min-h-[300px]">
+                    <CardEffects containerClassName="col-span-1 h-full w-full min-h-[300px]">
                         <div className="w-full px-5">
-                                <p className="">
+                                <p className="text-lg">
                                     {tA('subtitle')}
                                 </p>
-                                <p className="mt-4 text-left  text-base/6 text-neutral-200">
+                                <p className="mt-4 text-lg text-neutral-200">
                                     {tA('paragraph1')}
                                 </p>
-                                <p className="mt-4 text-left  text-base/6 text-neutral-200">
+                                <p className="mt-4 text-lg text-neutral-200">
                                     {tA('paragraph2')}
                                 </p>
                             </div>
-                            {/* <img
-                            src="/linear.webp"
-                            width={500}
-                            height={500}
-                            alt="linear demo image"
-                            className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
-                            /> */}
                         <div/>
                     </CardEffects>
                     <div className="flex flex-col gap-3 ">
                         <CardEffects containerClassName="col-span-1 h-auto">
                             <div className="w-full h-auto px-5" ref={grid2container}>
-                               <h2 className="flex items-center justify-center text-4xl text-white">{tE('title')}</h2>
+                               <h2 className="flex items-center justify-center text-3xl text-center font-black text-white">{tE('title')}</h2>
                                 {tE.raw('highlights').map((item: string, index: number) => (
                                     <CardStack
                                         key={index}
@@ -63,12 +56,12 @@ export default function Welcome(){
                         <div/>
                         </CardEffects>
                         <CardEffects containerClassName="col-span-1 min-h-[300px]">
-                            <div className="grid grid-cols-2 gap-10 px-10">
-                                <div className="w-full">
-                                    <h2>{tS('title')}</h2>
-                                    <p>{tS('paragraph')}</p>
+                            <div className="relative grid grid-cols-1 md:grid-cols-2 gap-10 px-10">
+                                <div className="w-full mb-20">
+                                    <h2 className="text-2xl font-black mb-5">{tS('title')}</h2>
+                                    <p className="text-lg font-medium">{tS('paragraph')}</p>
                                 </div>
-                                <div className="w-full pl-80">
+                                <div className="w-full absolute -bottom-50 left-0 md:top-10 md:left-80 lg:top-15 lg:left-60">
                                     <Frameworks />
                                 </div>
                             </div>
@@ -83,7 +76,7 @@ export default function Welcome(){
                     </CardEffects>
                     <CardEffects containerClassName="col-span-1">
                         <div className="px-10 text-center flex flex-col justify-center items-center gap-5">
-                            <h2 className="text-3xl font-bold">{tCCV('title')}</h2>
+                            <h2 className="text-xl md:text-3xl font-bold">{tCCV('title')}</h2>
                             <div className="flex justify-center items-center gap-6">
                                 <BtnHover 
                                 action="download"
