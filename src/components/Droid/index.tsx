@@ -26,6 +26,7 @@ useGLTF.preload(DROID_MODEL_PATH);
 type DroidProps = ThreeElements['group'] & {
     // Propriedade para controlar a velocidade da animação GLTF
     speed?: number;
+    isMobile: boolean;
 }
 
 
@@ -41,7 +42,7 @@ interface DroidGLTFResult extends GLTF {
 /**
  * Componente do Droid 3D com animação inicial suave e movimento do mouse.
  */
-export function Droid({ speed = 1, ...props }: DroidProps) {
+export function Droid({ speed = 1, isMobile, ...props }: DroidProps) {
     const groupRef = useRef<THREE.Group>(null!); 
     
     // 1. Carregamento do Modelo: Desestruturamos 'scene' para renderizar o grafo completo
@@ -54,6 +55,11 @@ export function Droid({ speed = 1, ...props }: DroidProps) {
 
     // 3. Hook de Movimento do Mouse
     const { rotationX: mouseRotationX, rotationY: mouseRotationY } = useDroidMovement();
+
+
+    // 4-logica de escala responsiva
+    // Define um tamanho menor no mobile e um amior no desktop
+    const scale = isMobile ? 0.35 : 0.6;
 
     useEffect(() => {
         // Move o Droid suavemente para a posição final (Y=0)
@@ -94,7 +100,7 @@ export function Droid({ speed = 1, ...props }: DroidProps) {
             {...props} 
             dispose={null}
             // Escala ajustada para um tamanho razoável no Canvas
-            scale={0.6} // Aumentei a escala um pouco de 0.5 para 0.6
+            scale={scale} // Aumentei a escala um pouco de 0.5 para 0.6
         >
             {/* CORREÇÃO: Usamos <primitive> para renderizar o grafo de cena (scene) completo do GLTF. */}
             <primitive object={scene} />
