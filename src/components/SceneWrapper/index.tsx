@@ -11,7 +11,7 @@ import { Droid } from "@/components/Droid";
 export const SceneWrapper: React.FC = () => {
   return (
     <Canvas 
-      className='z-50'
+      className='z-40 mt-50'
       // HABILITA TRANSPARÊNCIA: gl={{ alpha: true }} permite que o fundo seja transparente
       gl={{ alpha: true }}
       // flat previne problemas de tone-mapping (boa prática)

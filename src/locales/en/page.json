@@ -1,7 +1,9 @@
 {
     "welcome": {
         "title": "Hi, I'm Afonso Arruda Gesualdi",
-        "subtitle": "A multidisciplinary professional who connects design, technology, and strategy to transform ideas into meaningful digital experiences."
+        "subtitle_short": "A multidisciplinary professional who connects",
+        "words": ["design", "technology", "strategy"],
+        "subtitle_after": "Software solutions"    
     },
     "about": {
         "title": "About me",
@@ -255,7 +257,7 @@
                 },
                 "project3": {
                     "title": "Space Animated Vue",
-                    "image": "/assets/mockups/mockup-space.png",
+                    "image": "/assets/mockups/mockup-space.jpg",
                     "description": "3D animation learning project using Vue.js, TypeScript, and Three.js. Designed to explore digital 3D animation, creating interactive and animated web experiences with emphasis on performance and modern web graphics techniques.",
                     "list": [
                         "3D Web Animation",
