@@ -24,38 +24,38 @@ export default function HeroText(): React.JSX.Element {
                 animate="visible"
                 transition={{ delay: 1 }}
                 >
-                {t('title')}
+                    {t('title')}
                 </motion.h1>
                 <div className="flex flex-col items-start">
-                <motion.p
-                    className="text-4xl lg:text-5xl w-full font-medium text-neutral-300"
-                    variants={variants}
-                    initial="hidden"
-                    animate="visible"
-                    transition={{ delay: 1.2 }}
-                >
-                    {t('subtitle_short')}
-                </motion.p>
-                <motion.div
-                    variants={variants}
-                    initial="hidden"
-                    animate="visible"
-                    transition={{ delay: 1.5 }}
-                >
-                    <FlipWords
-                    words={words}
-                    className="font-black text-white text-8xl"
-                    />
-                </motion.div>
-                <motion.p
-                    className="text-3xl font-black text-neutral-400 w-full"
-                    variants={variants}
-                    initial="hidden"
-                    animate="visible"
-                    transition={{ delay: 1.8 }}
-                >
-                    {t('subtitle_after')}
-                </motion.p>
+                    <motion.p
+                        className="text-4xl lg:text-5xl w-full font-medium text-neutral-300"
+                        variants={variants}
+                        initial="hidden"
+                        animate="visible"
+                        transition={{ delay: 1.2 }}
+                    >
+                        {t('subtitle_short')}
+                    </motion.p>
+                    <motion.div
+                        variants={variants}
+                        initial="hidden"
+                        animate="visible"
+                        transition={{ delay: 1.5 }}
+                    >
+                        <FlipWords
+                        words={words}
+                        className="font-black text-white text-8xl"
+                        />
+                    </motion.div>
+                    <motion.p
+                        className="text-3xl font-black text-neutral-400 w-full"
+                        variants={variants}
+                        initial="hidden"
+                        animate="visible"
+                        transition={{ delay: 1.8 }}
+                    >
+                        {t('subtitle_after')}
+                    </motion.p>
                 </div>
             </div>
             {/* Mobile View */}

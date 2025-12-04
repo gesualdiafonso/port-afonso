@@ -72,7 +72,7 @@ export default function NavBar() {
         }))}
       />
 
-      <div className="hidden md:flex ml-3">
+      <div className="flex ml-3">
         <BtnLanguage />
       </div>
     </nav>
