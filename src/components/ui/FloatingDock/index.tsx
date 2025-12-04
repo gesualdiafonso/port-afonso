@@ -87,7 +87,7 @@ const FloatingDockDesktop = ({
   items,
   className,
 }: {
-  items: { title: string; icon: React.ReactNode; href: string, target: string }[];
+  items: { title: string; icon: React.ReactNode; href: string; target?: string }[];
   className?: string;
 }) => {
   const mouseX = useMotionValue(Infinity);
@@ -118,7 +118,7 @@ function IconContainer({
   title: string;
   icon: React.ReactNode;
   href: string;
-  target: string;
+  target?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
 
