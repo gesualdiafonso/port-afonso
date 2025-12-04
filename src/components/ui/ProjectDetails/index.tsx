@@ -1,5 +1,6 @@
 import { motion } from "motion/react"
 import Image from "next/image"
+import { getTechIcon } from "@/lib/utils/getTechIcons";
 
 interface ProjectDetailsProps {
     title: string;
@@ -12,6 +13,12 @@ interface ProjectDetailsProps {
 }
 
 export default function ProjectDetails ({ title, image, description, list, tech, link, closeModal }: ProjectDetailsProps){
+    
+    const techIcons = (tech ?? []).map(techName => ({
+        name: techName,
+        iconData: getTechIcon(techName)
+    }));    
+    
     return(
         <div className="fixed bg-gray-900/50 inset-0 z-50 felx items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
             <motion.div
@@ -30,15 +37,31 @@ export default function ProjectDetails ({ title, image, description, list, tech,
                     <h3>{title}</h3>
                     <p>{description}</p>
                     <ul className="mt-4 flex gap-5 items-center justify-center">
-                        {list?.map((item, i) => (
-                            <li className="text-center" key={i}>{item}</li>
-                        ))}
+                        
+                        {(techIcons ?? []).map((item, index) => {
+                            const IconComponent = item.iconData?.icon;
+
+                            return (
+                                <li key={index} className="flex flex-col items-center">
+                                    {IconComponent ? (
+                                        <>
+                                            <IconComponent 
+                                                size={32} // Ícone maior nos detalhes
+                                                style={{ color: item.iconData.color }} 
+                                                title={item.name}
+                                            />
+                                            {/* Opcional: Manter o nome abaixo do ícone */}
+                                            <span className="text-xs mt-1">{item.name}</span> 
+                                        </>
+                                    ) : (
+                                        // Renderiza o nome se o ícone não for encontrado
+                                        <span>{item.name}</span> 
+                                    )}
+                                </li>
+                            )
+                        })}
                     </ul>
-                    <ul className="mt-4 flex gap-5">
-                        {tech?.map((techs, tec) => (
-                            <li key={tec}>{techs}</li>
-                        ))}
-                    </ul>
+                    
                     <a className="text-end" href={link}>View Project</a>
                 </div>
             </motion.div>

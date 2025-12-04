@@ -133,7 +133,7 @@
                     ],
                     "tech": [
                         "Vue",
-                        "Vutify",
+                        "Vuetify",
                         "PHP",
                         "JavaScript",
                         "MySql",
@@ -177,7 +177,7 @@
                         "Foco em UX/UI"
                     ],
                     "tech": [
-                        "React.js",
+                        "React",
                         "Styled components",
                         "TypeScript",
                         "JavaScript",
@@ -244,7 +244,7 @@
                         "Desenvolvimento com Vue"
                     ],
                     "tech": [
-                        "Vue.js",
+                        "Vue",
                         "JavaScript",
                         "Firebase",
                         "Bootstrap",
@@ -265,10 +265,10 @@
                         "Projeto de Aprendizado de Animação"
                     ],
                     "tech": [
-                        "Vue.js",
+                        "Vue",
                         "TypeScript",
                         "CSS",
-                        "Three.js",
+                        "Three",
                         "Vite"
                     ],
                     "link": "https://space-animated-vue.vercel.app"

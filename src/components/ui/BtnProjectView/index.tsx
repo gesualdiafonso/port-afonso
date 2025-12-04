@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import ProjectDetails from "../ProjectDetails";
+import { getTechIcon } from "@/lib/utils/getTechIcons";
 
 
 interface BtnProjectViewProps {
@@ -15,6 +16,10 @@ interface BtnProjectViewProps {
 export default function BtnProjectView({ title, image, description, list, tech, link, setPreview }: BtnProjectViewProps){
     const [isHidden, setIsHidden] = useState(false);
 
+    const techIcons = (tech ?? []).map(techName => ({
+        name: techName,
+        iconData: getTechIcon(techName)
+    }));
     return(
         <>
             <div 
@@ -25,7 +30,19 @@ export default function BtnProjectView({ title, image, description, list, tech, 
                 <div>
                     <p className="text-2xl">{title}</p>
                     <div className="flex gap-5 mt-2 text-sand">
-                        {tech}
+                        {(techIcons ?? []).map((item, index) => {
+                            const IconComponent = item.iconData?.icon;
+                            return IconComponent ? (
+                                <IconComponent
+                                    key={index}
+                                    size={24}
+                                    style={{ color: item.iconData.color }}
+                                    title={item.name}    
+                                />
+                            ) : (
+                                <span key={index}>{item.name}</span>
+                            );
+                        })}
                     </div>
                 </div>
                 <button

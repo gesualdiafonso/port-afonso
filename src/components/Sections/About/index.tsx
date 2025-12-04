@@ -6,6 +6,7 @@ import CardEffects from "@/components/ui/CardEffect";
 import { Frameworks } from "@/components/ui/Frameworks";
 import CopyEmailButton from "@/components/ui/CopyEmailButton";
 import CardStack from "@/components/ui/CardStack";
+import BtnHover from "@/components/ui/BtnHover";
 
 export default function Welcome(){
     const tCMail = useTranslations('common.emailContat');
@@ -83,7 +84,22 @@ export default function Welcome(){
                     <CardEffects containerClassName="col-span-1">
                         <div className="px-10 text-center flex flex-col justify-center items-center gap-5">
                             <h2 className="text-3xl font-bold">{tCCV('title')}</h2>
-                            <CopyEmailButton />
+                            <div className="flex justify-center items-center gap-6">
+                                <BtnHover 
+                                action="download"
+                                href="/assets/CV-Afonso-FullStack.pdf"
+                                text="Baixar Cv"
+                                bgColorClass="bg-gray-800"
+                                hoverBgColorClass="hover:bg-gray-700"
+                                />
+                                <BtnHover
+                                    action="linkedin"
+                                    href=""
+                                    text="LinkedIn"
+                                    iconName="linkedin"
+                                />
+                            </div>
+
                         </div>
                     </CardEffects>
                 </div>
