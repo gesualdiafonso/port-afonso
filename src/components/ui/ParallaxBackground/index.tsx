@@ -30,6 +30,7 @@ export default function ParallaxBacground() {
                         style={{
                             backgroundImage: "url(/assets/images/parallax/ativo2.png",
                             backgroundPosition: "bottom",
+                            backgroundRepeat: "no-repeat",
                             backgroundSize: "contain",
                             y: sonY
                         }}
