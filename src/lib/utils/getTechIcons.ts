@@ -56,7 +56,7 @@ export const iconMap = {
     docker: { icon: FaDocker, color: "#0db7ed" },
     prettier: { icon: SiPrettier, color: "#0db7ed" },
     styledcomponent: { icon: SiStyledcomponents, color: "#DB7093"},
-    mamp: { icon: SiStyledcomponents, color: "#005E54"},
+    mamp: { icon: SiMamp, color: "#005E54"},
 
     cplusplus: { icon: SiCplusplus, color: "#00599C" },
     php: { icon: SiPhp, color: "#4F5B93" },
@@ -118,7 +118,7 @@ export function getTechIcon(techName: string) {
 
     // Tenta encontrar a chave normalizada no map. 
     // Ex: "Next" se torna "nextjs", que encontra a entrada.
-    const iconData = iconMap[normalizedName];
+    const iconData = iconMap[normalizedName as keyof typeof iconMap];
 
     if (iconData) {
         return iconData;
@@ -126,5 +126,5 @@ export function getTechIcon(techName: string) {
 
     // Caso o mapeamento acima não seja suficiente, tenta uma correspondência direta 
     // (útil para chaves que já estão normalizadas no JSON).
-    return iconMap[techName.toLowerCase().replace(/\s/g, '')] || null;
+    return iconMap[techName.toLowerCase().replace(/\s/g, '') as keyof typeof iconMap] || null;
 }

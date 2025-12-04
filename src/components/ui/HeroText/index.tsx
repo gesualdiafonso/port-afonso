@@ -28,7 +28,7 @@ export default function HeroText(): React.JSX.Element {
                 </motion.h1>
                 <div className="flex flex-col items-start">
                 <motion.p
-                    className="text-5xl font-medium text-neutral-300"
+                    className="md:text-4xl lg:text-5xl font-medium text-neutral-300"
                     variants={variants}
                     initial="hidden"
                     animate="visible"
@@ -71,7 +71,7 @@ export default function HeroText(): React.JSX.Element {
                 </motion.p>
                 <div>
                 <motion.p
-                    className="text-5xl font-black text-neutral-300"
+                    className="text-4xl font-black text-neutral-300"
                     variants={variants}
                     initial="hidden"
                     animate="visible"
@@ -87,7 +87,7 @@ export default function HeroText(): React.JSX.Element {
                 >
                     <FlipWords
                     words={words}
-                    className="font-bold text-white text-7xl"
+                    className="font-bold text-white text-6xl"
                     />
                 </motion.div>
                 </div>
