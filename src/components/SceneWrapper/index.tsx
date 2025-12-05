@@ -5,6 +5,7 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Environment, Float } from '@react-three/drei';
 import { Droid } from "@/components/Droid";
 import { easing } from "maath"
+import Loader from '../ui/Loader';
 
 interface SceneWrapperProps {
   isMobile: boolean;
@@ -51,10 +52,11 @@ export const SceneWrapper: React.FC<SceneWrapperProps> = ({ isMobile, className}
         {/* O Suspense é NECESSÁRIO porque o useGLTF carrega o modelo assincronamente */}
         <Suspense fallback={
           // Opcional: Um fallback simples enquanto o modelo carrega
-          <mesh position={droidPosition}>
+          /*<mesh position={droidPosition}>
               <boxGeometry args={[1, 1, 1]}/>
               <meshBasicMaterial color="gray" />
-          </mesh>
+          </mesh> */
+          <Loader />
         }>
           
           {/* ILUMINAÇÃO */}
