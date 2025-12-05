@@ -61,7 +61,7 @@ export default function NavBar() {
   ]
 
   return (
-    <nav className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center justify-center gap-4 
+    <nav className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex items-center justify-center gap-4 
     backdrop-blur-xl bg-white/10 dark:bg-neutral-900/50 border border-white/10 rounded-2xl 
     px-6 py-3 shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
       <FloatingDock 
