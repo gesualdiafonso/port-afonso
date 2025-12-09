@@ -1,0 +1,35 @@
+{
+    "btnContact":{
+        "contact": "contact Me",
+        "download": "Download CV"
+    },
+    "emailContat": {
+        "title": "Do you want to start a contact?",
+        "copy": "Copy Email Address"
+    },
+    "cv": {
+        "title": "Download my CV or view my LinkedIn profile.",
+        "btn": "Download CV",
+        "linkdIn": "LinkedIn profile"
+    },
+    "btnHero": {
+        "contact": "Get in Touch"
+    },
+    "btnsAll":{
+        "view": "View All",
+        "project": "View Project",
+        "send": "Send Menssage"
+    },
+    "navbar":{
+        "home": "Home",
+        "about": "About Me",
+        "project": "Project",
+        "gallery": "Gallery",
+        "contact": "Contact Me"
+    },
+    "footer": {
+        "rights": "© 2023 All rights reserved.",
+        "social": "Follow me on social media",
+        "developed": "Developed by Afonso Gesualdi"
+    }
+}

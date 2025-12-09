@@ -1,0 +1,33 @@
+{
+    "btnContact": {
+        "contact": "Fale comigo",
+        "download": "Baixar CV"
+    },
+    "emailContat": {
+        "title": "Quer entrar em contato?",
+        "copy": "Copiar Email"
+    },
+    "cv": {
+        "title": "Baixe meu currículo ou veja meu LinkedIn.",
+        "btn": "Baixar CV",
+        "linkdIn": "Perfil LinkedIn"
+    },
+    "btnHero": {
+        "contact": "Entre em contato"
+    },
+    "btnsAll": {
+        "view": "Ver mais",
+        "project": "Ver Projeto",
+        "send": "Enviar mensagem"
+    },
+    "navbar": {
+        "home": "Início",
+        "about": "Sobre mim",
+        "project": "Projetos",
+        "gallery": "Galeria",
+        "contact": "Contato"
+    },
+    "footer": {
+        "rights": "© 2023 Todos os direitos reservados."
+    }
+}

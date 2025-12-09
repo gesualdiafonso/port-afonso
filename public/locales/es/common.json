@@ -1,0 +1,35 @@
+{
+    "btnContact": {
+        "contact": "Contáctame",
+        "download": "Descargar CV"
+    },
+    "emailContat": {
+        "title": "¿Quieres iniciar un contacto?",
+        "copy": "Copiar Correo"
+    },
+    "cv": {
+        "title": "Descarga mi currículum o visita mi perfil de LinkedIn.",
+        "btn": "Descargar CV",
+        "linkdIn": "Perfil del LinkedIn"
+    },
+    "btnHero": {
+        "contact": "Ponerse en contacto"
+    },
+    "btnsAll": {
+        "view": "Ver más",
+        "project": "Ver Proyecto",
+        "send": "Enviar mensaje"
+    },
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "project": "Proyectos",
+        "gallery": "Galería",
+        "contact": "Contáctame"
+    },
+    "footer": {
+        "rights": "© 2023 Todos los derechos reservados.",
+        "social": "Sígueme en redes sociales",
+        "developed": "Desarrollado por Afonso Gesualdi"
+    }
+}

@@ -1,0 +1,505 @@
+{
+    "welcome": {
+        "title": "Hi, I'm Afonso Arruda Gesualdi",
+        "subtitle_short": "A multidisciplinary professional who connects",
+        "words": ["design", "technology", "strategy"],
+        "subtitle_after": "Software solutions"    
+    },
+    "about": {
+        "title": "About me",
+        "subtitle": "Brazilian living in Argentina for over 7 years. Graduated in Web Development and Design from Da Vinci and specialized in Branding Management at EBAC (Brazil).",
+        "paragraph1": "Throughout my academic journey, I studied Industrial Engineering for two years at Universidad de Palermo (UP), where I discovered my passion for programming with Python. I am currently pursuing a degree in Information Systems Engineering at the National Technological University (UTN).",
+        "paragraph2": "I have practical and applied experience in Digital Marketing, Digital Graphic Design, and Brand Communication. I am certified in React technologies, including Electron, Native, Express, and Next.js, and possess a strong foundation in PHP and Laravel, Vue.js, Node.js, C#, version control with GitLab, Python, Django, Flask, and more. I work with both relational and non-relational databases."
+    },
+    "expertise": {
+        "title": "What do I deliver best?",
+        "highlights": [
+            "Full-stack programming.",
+            "Focused on user experience.",
+            "UX/UI design.",
+            "Web application development.",
+            "Mobile application development.",
+            "Branding and digital marketing consulting.",
+            "Creation of visual identities.",
+            "Creation of digital brands."
+        ]
+    },
+    "skills": {
+        "title": "Skills",
+        "paragraph": "I specialize in a variety of languages, frameworks, and tools taht allow me to build robust and scalable applications"
+    },
+    "projects": {
+        "title": "All my Selected Projects",
+        "freelancers": {
+            "title": "Freelancers",
+            "project1" : {
+                "title": "Vida Plus",
+                "description": "Complete development of an institutional website for a company in the health and wellness sector, focusing on user experience, performance, and digital credibility. The project was designed to convey confidence and modernity, reinforcing the brand's visual identity through a clean and responsive design.",
+                "image": "/assets/mockups/mockup-vidaplus.png",
+                "list": [
+                    "Institutional Page",
+                    "UI/UX Web Design",
+                    "Full-stack Development",
+                    "SEO Optimization"
+                ],
+                "tech": [
+                    "Next",
+                    "TypeScript",
+                    "Tailwindcss",
+                    "Express",
+                    "Figma"
+                ],
+                "link": "https://vida-plus-sepia.vercel.app"
+            },
+            "project2" : {
+                "title": "Aurea Design",
+                "description": "Creation of an institutional page for the Aurea Design architecture studio, developed to highlight portfolios and services in a visually sophisticated and functional way. The design reflects the studio's minimalist and contemporary aesthetic, focusing on user experience, fluidity, and strategic visual communication. The project reinforces the brand's digital presence and expands its authority in the design and architecture market.",
+                "image": "/assets/mockups/aurea.png",
+                "list": [
+                    "Institutional Web Page",
+                    "UI/UX Design",
+                    "Portfolio Presentation",
+                    "Full-stack Development"
+                ],
+                "tech": [
+                    "Vue",
+                    "JavaScript",
+                    "Tailwindcss",
+                    "Express",
+                    "Figma"
+                ],
+                "link": ""
+            },
+            "project3" : {
+                "title": "Funeraria do Paulinho",
+                "image": "/assets/mockups/mockup-funeraria-paulinho.png",
+                "description": "Development of an institutional website for Funeraria do Paulinho, focused on conveying trust, empathy, and professionalism. The project was designed to offer simple, informative, and accessible navigation, reinforcing the brand's digital presence and facilitating contact with customers during sensitive moments. The design combines visual sobriety with functional clarity, aligned with the company's institutional identity.",
+                "list": [
+                    "Institutional Web Page",
+                    "UI/UX Web Design",
+                    "SEO Optimization"
+                ],
+                "tech": [
+                    "React",
+                    "JavaScript",
+                    "Express",
+                    "Vite",
+                    "UiKit",
+                    "Css",
+                    "Vite",
+                    "Figma"
+                ],
+                "link": "https://funerariapaulinho.vercel.app"
+            }
+        },
+        "academyc": {
+            "title": "Academics",
+            "fullstack": {
+                "project1" : {
+                    "title": "Éclat",
+                    "image": "/assets/mockups/eclat.jpg",
+                    "description": "Development of a digital portal for a modelling agency, designed as an academic project for the Electronic Portals and Commerce course. The site integrates a complete model management system, services and blog, with an administrative panel (CRUD) and fluid animations. Its objective is to reflect the aesthetics and dynamism of the fashion world through an interactive, modern and professional experience.",
+                    "list": [
+                        "Web Service Page",
+                        "Agency Portal",
+                        "Model Management System",
+                        "Admin CRUD Panel",
+                        "Blog Integration with Quill.js"
+                    ],
+                    "tech": [
+                        "Laravel",
+                        "PHP",
+                        "JavaScript",
+                        "GSAP",
+                        "QuillJs",
+                        "Tailwindcss",
+                        "UiKit",
+                        "Css",
+                        "MySql",
+                        "Mamp",
+                        "Vite",
+                        "ORM"
+                    ],
+                    "link": ""
+                },
+                "project2" : {
+                    "title": "Éclat Admin",
+                    "image": "/assets/mockups/eclat_admin.jpg",
+                    "description": "Development of a management and control system for a modelling agency, an extension of an academic project for Electronic Portals. A system that integrates a complete management system for creating, editing, reading and deleting information, whether: services, models, users, payment control and statistics. Use of a jQuill platform for post management, plus use of Chart.js for viewing statistics.",
+                    "list": [
+                        "Software as Service",
+                        "Agency Portal",
+                        "Admin CRUD Panel",
+                        "Integration with Chart.js",
+                        "Blog Integration with Quill.js"
+                    ],
+                    "tech": [
+                        "Laravel",
+                        "PHP",
+                        "JavaScript",
+                        "Chart",
+                        "QuillJs",
+                        "Tailwindcss",
+                        "Css",
+                        "MySql",
+                        "Mamp",
+                        "Vite",
+                        "ORM"
+                    ],
+                    "link": ""
+                },
+                "project3" : {
+                    "title": "DalyFlix",
+                    "image": "/assets/mockups/devfilms.jpg",
+                    "description": "Development of an interactive web platform for sharing opinions on films that have been released and are due for release. The system was created with Vue.js on the frontend and pure PHP on the backend, communicating with a MySQL database managed from PhpMyAdmin. Users can rate films with a system of visual reactions —bomb, fire, popcorn or scales— promoting a dynamic, fun and social experience. Academic project focusing on front-back integration and data management.",
+                    "list": [
+                        "Interactive Web Service",
+                        "Opinion Blog Platform",
+                        "Frontend-Backend Integration",
+                        "Database Management",
+                        "User Reaction System"
+                    ],
+                    "tech": [
+                        "Vue",
+                        "Vuetify",
+                        "PHP",
+                        "JavaScript",
+                        "MySql",
+                        "Bootstrap",
+                        "Eslite",
+                        "Prettier",
+                        "Vite"
+                    ],
+                    "link": ""
+                },
+                "project4": {
+                    "title": "Malba Gallery",
+                    "image": "/assets/mockups/mockup-malbagallery.png",
+                    "description": "Development of an e-commerce website inspired by the MALBA Museum, designed to showcase and sell artistic products. Built entirely with pure PHP and JavaScript, the project manages dynamic DOM content and connects to a MySQL database through PHPMyAdmin. The visual design, implemented with UiKit, focuses on elegance, simplicity, and a seamless user experience.",
+                    "list": [
+                        "E-Commerce Web Store",
+                        "Art & Design Platform",
+                        "Digital Brand Identity"
+                    ],
+                    "tech": [
+                        "PHP",
+                        "Uikit",
+                        "MySQL",
+                        "MAMP",
+                        "MariaDB",
+                        "CSS",
+                        "JavaScript",
+                        "Figma"
+                    ],
+                    "link": ""
+                },
+                "project5": {
+                    "title": "Lexus Landing Page Promotion",
+                    "image": "/assets/mockups/mockup-lexus.png",
+                    "description": "First React.js project using TypeScript and Styled components, developed as a promotional landing page for the Lexus automobile line. The project focuses on clean, modern design, fast performance, and an engaging user experience to highlight vehicle features and branding. Ideal for marketing campaigns and digital promotion strategies.",
+                    "list": [
+                        "Promotional Landing Page",
+                        "Content Marketing",
+                        "Automotive Product Showcase",
+                        "Responsive Web Design",
+                        "UX/UI Focused"
+                    ],
+                    "tech": [
+                        "React",
+                        "Styled components",
+                        "TypeScript",
+                        "JavaScript",
+                        "CSS",
+                        "Vite"
+                    ],
+                    "link": "https://lexus-app.vercel.app",
+                    "github": "https://github.com/gesualdiafonso/lexus-app.git"
+                },
+                "project6": {
+                    "title": "Spectra Labs",
+                    "image": "/assets/mockups/mockup-spectra.png",
+                    "description": "First project built with Vanilla JavaScript and Bootstrap for responsiveness. Spectra Labs is an e-commerce web platform featuring product detail pages and full DOM manipulation for dynamic interactions. The project emphasizes clean code, responsive design, and an intuitive user experience, ideal for learning front-end fundamentals and web commerce implementation.",
+                    "list": [
+                        "E-Commerce Web Platform",
+                        "Product Detail Pages",
+                        "DOM Manipulation",
+                        "Responsive Web Design",
+                        "Front-End Development Practice"
+                    ],
+                    "tech": [
+                        "JavaScript",
+                        "HTML",
+                        "CSS",
+                        "Bootstrap",
+                        "Testing"
+                    ],
+                    "link": "https://spectralabs.vercel.app/",
+                    "github": "https://github.com/gesualdiafonso/spectra-labs"
+                }
+            },
+            "desktop":{
+                "project1": {
+                    "title": "DevClientes",
+                    "image": "/assets/mockups/devclients.jpg",
+                    "description": "First desktop application developed using React, Electron, TypeScript, JavaScript, TailwindCSS, and Vite. The app allows users to create, update, and delete client records, combining modern desktop development with responsive UI and efficient local database management using PouchDB.",
+                    "list": [
+                        "Desktop Application",
+                        "iOS, Windows, and Linux",
+                        "Client Management",
+                        "App Development",
+                        "React & Electron"
+                    ],
+                    "tech": [
+                        "Electron",
+                        "TypeScript",
+                        "PouchDB",
+                        "JavaScript",
+                        "React",
+                        "TailwindCSS",
+                        "Vite"
+                    ],
+                    "link": "https://github.com/gesualdiafonso/electron-curso.git"
+                },
+                "project2": {
+                    "title": "Van Gogh App PWA",
+                    "image": "/assets/mockups/mockup-vangogh.png",
+                    "description": "Progressive Web App built with Vue.js and Vite, designed to determine which Van Gogh painting best represents the user based on a form input. Users can share results and update their data every 15 days. Information is stored locally and can be cleared from LocalStorage. First experience building a PWA with interactive form-driven logic.",
+                    "list": [
+                        "Progressive Web App",
+                        "Interactive Form",
+                        "User Profiling Algorithm",
+                        "LocalStorage Data Management",
+                        "Vue Development"
+                    ],
+                    "tech": [
+                        "Vue",
+                        "JavaScript",
+                        "Firebase",
+                        "Bootstrap",
+                        "Vuetify",
+                        "Vite"
+                    ],
+                    "link": "https://app-vue-vangogh.vercel.app"
+                },
+                "project3": {
+                    "title": "Space Animated Vue",
+                    "image": "/assets/mockups/mockup-space.jpg",
+                    "description": "3D animation learning project using Vue.js, TypeScript, and Three.js. Designed to explore digital 3D animation, creating interactive and animated web experiences with emphasis on performance and modern web graphics techniques.",
+                    "list": [
+                        "3D Web Animation",
+                        "Interactive Web Experience",
+                        "Digital 3D Web",
+                        "Vue & Three.js",
+                        "Animation Learning Project"
+                    ],
+                    "tech": [
+                        "Vue",
+                        "TypeScript",
+                        "CSS",
+                        "Three",
+                        "Vite"
+                    ],
+                    "link": "https://space-animated-vue.vercel.app"
+                }
+            }
+        }
+    },
+    "experience": {
+        "title": "My Work Experience.",
+        "items": [
+        {
+            "title": "Funeraria Vida-Plus - Institutional Website",
+            "job": "Full Stack Developer",
+            "date": "2024 - 2025",
+            "contents": [
+            "Developed a fully scalable institutional website with SEO-optimized architecture.",
+            "Engineered a fast-loading web structure focused on performance and accessibility.",
+            "Designed the system for future expansion, including a user dashboard and a native mobile app.",
+            "Created an accessible UX tailored for older audiences with intuitive navigation.",
+            "Established a strong digital brand presence through consistent visual identity design.",
+            "Stacks: Next.js, TypeScript, TailwindCSS, Node.js"
+            ]
+        },
+        {
+            "title": "Funeraria do Paulinho - Institutional Website",
+            "job": "Web Developer",
+            "date": "2023 - 2024",
+            "contents": [
+            "Built an accessible and lightweight SPA designed for users with low technical literacy.",
+            "Designed a clean and readable interface suitable for diverse user profiles.",
+            "Integrated custom UI kits to improve navigation fluidity and visual consistency.",
+            "Implemented structured sections to highlight services and improve sales projection.",
+            "Developed the brand’s digital identity and online positioning.",
+            "Stacks: React.js, CSS Modules, UI Kit, MUI Kit, Node.js"
+            ]
+        },
+        {
+            "title": "Aurea Studio - Portfolio Website",
+            "job": "Full Stack Developer",
+            "date": "2024 - 2025",
+            "contents": [
+            "Developed a portfolio website for an Architecture and Design studio with high-impact visual presentation.",
+            "Implemented SEM strategies via Google Ads to drive scalable and optimized traffic.",
+            "Structured a system to display projects, drawings, and visual assets.",
+            "Designed the architecture for future integration of personalized property and service sales.",
+            "Created direct contact channels including e-mail forms and client communication pathways.",
+            "Developed and shaped the studio’s digital brand identity.",
+            "Stack: Vue.js, Vuetify, TypeScript, TailwindCSS, Node.js, GSAP Animation"
+            ]
+        },
+        {
+            "title": "Tanaka's Floricultura e Funeraría - Management System",
+            "job": "Software Developer",
+            "date": "2024 - 2025",
+            "contents": [
+            "Developed a desktop management software integrated with a BaaS database.",
+            "Built scalable CRUD architecture for associates, beneficiaries, plans, statuses, and pricing.",
+            "Designed a clear and intuitive interface focused on operational accessibility.",
+            "Implemented authentication and security using Supabase.",
+            "Created a premium administrative dashboard for employee management.",
+            "Stack: React + Electron, Supabase, TailwindCSS, Redux, Node.js"
+            ]
+        },
+        {
+            "title": "Fenju Sushi - Online Menu",
+            "job": "Full Stack Developer",
+            "date": "2023 - 2024",
+            "contents": [
+            "Developed a dynamic digital menu with categories such as daily specials, executive lunch, dinner, chef’s picks, drinks and seasonal items.",
+            "Implemented an integrated table reservation system.",
+            "Designed mobile-first UX with smooth navigation and visually appealing gastronomic layout.",
+            "Created a dynamic panel for updating dishes, prices and highlights.",
+            "Used AJAX for real-time updates without page reloads.",
+            "Stack: JavaScript, Sass, CSS, HTML5, jQuery, Ajax, Node.js"
+            ]
+        }
+        ]
+    },
+    "testimonial": {
+        "title": "What those I have worked with share!",
+        "reviews" : [
+            {
+               "name": "Thayza Alves",
+               "post": "Analistic System",
+               "company": "Not specified",
+               "body": "Working with Afonso was a remarkable, collaborative and precise experience. With a mind focused on structure and architecture, he identifies needs, solves problems quickly and raises the quality of collective work with his feedback on new implementations.",
+               "image": "/assets/avatar/thayzafoto.jpg"
+            },
+            {
+               "name": "Paulo Gesualdi",
+               "post": "C.E.O",
+               "company": "Funeraría do Paulinho",
+               "body": "Afonso created a website that transformed the digital presence of our funeral services. His perspective on adapting the user experience to our audience, combined with his technical precision, has allowed us to offer clarity, trust and professionalism to all visitors who interact with our platform. He has also redesigned our brand in a clean and clear way, bringing more providers to our collective.",
+               "image": "/assets/avatar/paulo.jpg"
+            },
+            {
+               "name": "Jussara Gesualdi",
+               "post": "Analista de Sistemas",
+               "company": "Loja do Braz",
+               "body": "Afonso is extremely dedicated and detail-oriented. His ability to understand business needs and convert them into functional, modern solutions elevates the brand’s digital identity while optimizing internal workflows.",
+               "image": "/assets/avatar/jussara.jpg"
+            },
+            {
+               "name": "Fernando de Araujo",
+               "post": "Full Stack Software",
+               "company": "Not specified",
+               "body": "Afonso is the kind of teammate who brings direction and balance. He listens, structures ideas, and guides the team with a calm, strategic mindset that keeps every project on track.",
+               "image": "/assets/avatar/fernando.jpg"
+            },
+            {
+               "name": "Thiago dos Santos",
+               "post": "C.E.O",
+               "company": "Funeraría Vida Plus",
+               "body": "Afonso developed our institutional website with an impressive level of refinement and scalability. His vision for future expansion, accessibility for older audiences, and strong digital branding positioned our company at a new professional standard.",
+               "image": "/assets/avatar/thiago.jpg"
+            },
+            {
+               "name": "Tatiane dos Santos",
+               "post": "Administrative",
+               "company": "Funeraría Vida Plus",
+               "body": "Every stage of the project was handled with care and precision. Afonso understood our values deeply and translated them into a clean, accessible, and trustworthy digital experience that truly represents our service.",
+               "image": "/assets/avatar/tatiane.jpg"
+            },
+            {
+               "name": "Queila dos Santos",
+               "post": "Administrative",
+               "company": "Funeraría Vida Plus",
+               "body": "Afonso elevated our brand image with a website that is not only visually strong but also technically prepared for future integrations. His professionalism, organization, and vision made the entire process smooth and reliable.",
+               "image": "/assets/avatar/queila.jpg"
+            },
+            {
+               "name": "Priscilla Tanaka",
+               "company": "Tanaka's Floricultura",
+               "post": "C.E.O",
+               "body": "Afonso built our management system with clarity and an impressive understanding of real operational needs. The software is intuitive, secure, and perfectly aligned with our workflow, enhancing both internal efficiency and customer service.",
+               "image": "/assets/avatar/priscilla.jpg"
+            },
+            {
+               "name": "Maria Eduarda Tanaka",
+               "post": "Cheff Marketing",
+               "company": "Tanaka's Floricultura",
+               "body": "His system design is simple to use yet powerful. Afonso created an interface that even non-technical users can navigate with ease, and this completely transformed how we manage clients, plans, and daily operations.",
+               "image": "/assets/avatar/duda.jpg"
+            },
+            {
+               "name": "Denis Tanaka",
+               "post": "Administrative",
+               "company": "Tanaka's Floricultura",
+               "body": "Your work on our management platform was clear and concise. Authentication, the structure for creating, adding, editing, and even deleting and deactivating a service, is fast, and the administration panel made it easy to add our employees, modernising our entire operation.",
+               "image": "/assets/avatar/denis.jpg"
+            },
+            {
+               "name": "Luiz Henrique Almeida",
+               "post": "Architect",
+               "company": "Aurea Design",
+               "body": "He knew how to translate the aesthetic vision into functional digital architecture. Our portfolio website is visually striking, optimised for performance, and strategically enhanced with SEM, which elevates our studio's online relevance.",
+               "image": "/assets/avatar/luiz.jpg"
+            },
+            {
+               "name": "Cassia Fernandez",
+               "post": "Interior Design",
+               "company": "Aurea Design",
+               "body": "Working with Afonso was seamless. His attention to detail, communication, and creative insight allowed us to present our design work online with elegance, precision, and a strong sense of identity.",
+               "image": "/assets/avatar/cassia.jpg"
+            }
+        ]
+    },
+    "social_links": {
+        "find": "Find me on social media",
+        "github": "https://github.com/gesualdiafonso",
+        "linkedin": "https://www.linkedin.com/in/afonso-gesualdi-aaa9bb244",
+        "behance": "https://www.behance.net/afonsogesualdi",
+        "instagram": "https://www.instagram.com/gesualdi.design",
+        "facebook": "https://www.facebook.com/people/Afonso-Gesualdi"
+    },
+    "contacts": {
+       "title": "Let’s Connect",
+        "subtitle": "Open to New Opportunities",
+        "body": "Interested in adding a forward-thinking developer to your team?",
+        "paragraph": "If your company is looking for someone who brings technical excellence, innovation, and a strategic mindset, I’d be glad to connect. I’m open to joining teams that value creativity, collaboration, and building solutions that genuinely move the needle.",
+        
+        "contact": "Reach Out",
+        "mail": "Email",
+        "link-mail": "gesualdiafonsoarr@outlook.com",
+        
+        "location": "Current Location",
+        "link-location": "Buenos Aires, Capital Federal, Argentina",
+        
+        "media": "Professional channels:",
+        
+        "form": {
+            "title": "Send a Message",
+            "name": "Full Name",
+            "email": "Work Email",
+            "phone": "Phone",
+            "company": "Company (optional)",
+            "country": "Country number phone",
+            "message": "Message",
+            "submit": "Send Message",
+            
+            "success": "Thank you! I appreciate your message and will respond shortly.",
+            "error": "There was an issue sending your request. Please try again later.",
+            "required": "This field is required."
+        }
+    }
+}
