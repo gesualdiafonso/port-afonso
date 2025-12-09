@@ -1,6 +1,7 @@
 import { motion } from "motion/react"
 import Image from "next/image"
 import { getTechIcon } from "@/lib/utils/getTechIcons";
+import { useTranslations } from "next-intl";
 
 interface ProjectDetailsProps {
     title: string;
@@ -13,7 +14,7 @@ interface ProjectDetailsProps {
 }
 
 export default function ProjectDetails ({ title, image, description, list, tech, link, closeModal }: ProjectDetailsProps){
-    
+    const tc = useTranslations('common.btnsAll')
     const techIcons = (tech ?? []).map(techName => ({
         name: techName,
         iconData: getTechIcon(techName)
@@ -78,7 +79,7 @@ export default function ProjectDetails ({ title, image, description, list, tech,
 
                             <span className="inline-block transition-all duration-300 
                                             group-hover:translate-x-12 group-hover:opacity-0">
-                            View Project
+                            {tc('project')}
                             </span>
                         </div>
 
@@ -88,7 +89,7 @@ export default function ProjectDetails ({ title, image, description, list, tech,
                                     justify-center gap-3 bg-gray-900 text-white opacity-0 transition-all duration-300 
                                     group-hover:-translate-x-5 group-hover:opacity-100 dark:bg-gray-100 dark:text-gray-900"
                         >
-                            <span className="leading-none font-medium">View Project</span>
+                            <span className="leading-none font-medium">{tc('project')}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 leading-none" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3 12h14" />

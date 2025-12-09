@@ -6,7 +6,7 @@ import {
     FaNode, FaReact, FaVuejs, FaBootstrap, 
     FaAngular, FaWordpress, FaDailymotion,
     FaGitAlt, FaGithub, FaFigma, FaHtml5,
-    FaNeos, FaSass, FaLess, FaDocker
+    FaNeos, FaSass, FaLess, FaDocker, FaRegChartBar 
 } from "react-icons/fa";
 import { 
     SiCplusplus, SiPhp, SiTypescript, 
@@ -57,6 +57,7 @@ export const iconMap = {
     prettier: { icon: SiPrettier, color: "#0db7ed" },
     styledcomponent: { icon: SiStyledcomponents, color: "#DB7093"},
     mamp: { icon: SiMamp, color: "#005E54"},
+    chart: { icon: SiMamp, color: "#005E54"},
 
     cplusplus: { icon: SiCplusplus, color: "#00599C" },
     php: { icon: SiPhp, color: "#4F5B93" },

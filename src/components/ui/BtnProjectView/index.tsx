@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import ProjectDetails from "../ProjectDetails";
 import { getTechIcon } from "@/lib/utils/getTechIcons";
+import { useTranslations } from "next-intl";
 
 
 interface BtnProjectViewProps {
@@ -14,6 +15,7 @@ interface BtnProjectViewProps {
 }
 
 export default function BtnProjectView({ title, image, description, list, tech, link, setPreview }: BtnProjectViewProps){
+    const tc = useTranslations('common.btnsAll')
     const [isHidden, setIsHidden] = useState(false);
 
     const techIcons = (tech ?? []).map(techName => ({
@@ -49,7 +51,7 @@ export default function BtnProjectView({ title, image, description, list, tech, 
                     onClick={() => setIsHidden(true)}
                     className="flex items-center gap-1 cursor-pointer hover-animation"
                 >
-                    Ver mas
+                    {tc('view')}
 
                 </button>
             </div>

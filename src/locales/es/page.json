@@ -53,7 +53,7 @@
             },
             "project2" : {
                 "title": "Aurea Design",
-                "image": "/assets/mockups/mockup-funeraria-paulinho.png",
+                "image": "/assets/mockups/aurea.png",
                 "description": "Creación de una página institucional para el estudio de arquitectura Aurea Design, desarrollada para destacar los portafolios y servicios de una manera visualmente sofisticada y funcional. El diseño refleja la estética minimalista y contemporánea del estudio, con enfoque en la experiencia del usuario, la fluidez y la comunicación visual estratégica. El proyecto refuerza la presencia digital de la marca y amplía su autoridad en el mercado del diseño y la arquitectura.",
                 "list": [
                     "Página web institucional",
@@ -123,6 +123,32 @@
                     "link": ""
                 },
                 "project2" : {
+                    "title": "Éclat Admin",
+                    "image": "/assets/mockups/eclat_admin.jpg",
+                    "description": "Desarrollo de un sistema de gestión y control para una agencia de modelos, una extensión del proyecto académico para Portales Electrónicos. Un sistema que integra un completo sistema de gestión para crear, editar, leer y eliminar información, ya sea: servicios, modelos, usuarios, control de pagos y estadísticas. Uso de una plataforma jQuill para la gestión de publicaciones, además del uso de Chart.js para la visualización de estadísticas.",
+                    "list": [
+                        "Servicio de Software",
+                        "Agency Portal",
+                        "Admin CRUD Panel",
+                        "Integración con Chart.js",
+                        "Integración blog con Quill.js"
+                    ],
+                    "tech": [
+                        "Laravel",
+                        "PHP",
+                        "JavaScript",
+                        "Chart",
+                        "QuillJs",
+                        "Tailwindcss",
+                        "Css",
+                        "MySql",
+                        "Mamp",
+                        "Vite",
+                        "ORM"
+                    ],
+                    "link": ""
+                },
+                "project3" : {
                     "title": "DalyFlix",
                     "image": "/assets/mockups/devfilms.jpg",
                     "description": "Desarrollo de una plataforma web interactiva para compartir opiniones sobre películas estrenadas y próximas a estrenar. El sistema fue creado con Vue.js en el frontend y PHP puro como backend, comunicándose con una base de datos MySQL gestionada desde PhpMyAdmin. Los usuarios pueden valorar películas con un sistema de reacciones visuales —bomba, fuego, palomitas o balanza—, promoviendo una experiencia dinámica, divertida y social. Proyecto académico con enfoque en integración front-back y gestión de datos.",
@@ -144,7 +170,7 @@
                     ],
                     "link": ""
                 },
-                "project3": {
+                "project4": {
                     "title": "Malba Galery",
                     "image": "/assets/mockups/mockup-malbagallery.png",
                     "description": "Desarrollo de un sitio web de comercio electrónico inspirado en el Museo MALBA, creado para exhibir y comercializar productos artísticos. Construido íntegramente con PHP puro y JavaScript, el sistema gestiona contenido dinámico del DOM y se conecta a una base de datos MySQL mediante PHPMyAdmin. El diseño visual, realizado con UiKit, prioriza la elegancia, la simplicidad y una experiencia de usuario fluida.",
@@ -165,7 +191,7 @@
                     ],
                     "link": ""
                 },
-                "project4": {
+                "project5": {
                     "title": "Lexus Landing Page Promotion",
                     "image": "/assets/mockups/mockup-lexus.png",
                     "description": "Primer proyecto con React.js utilizando TypeScript y Styled components, desarrollado como landing page promocional para la línea de automóviles Lexus. El proyecto se centra en un diseño limpio y moderno, alto rendimiento y una experiencia de usuario atractiva para resaltar características y branding del vehículo. Ideal para campañas de marketing digital.",
@@ -187,7 +213,7 @@
                     "link": "https://lexus-app.vercel.app",
                     "github": "https://github.com/gesualdiafonso/lexus-app.git"
                 },
-                "project5": {
+                "project6": {
                     "title": "Spectra Labs",
                     "image": "/assets/mockups/mockup-spectra.png",
                     "description": "Primer proyecto desarrollado con JavaScript Vanilla y Bootstrap para garantizar responsividad. Spectra Labs es una plataforma web de comercio electrónico que incluye páginas de detalles de productos y manipulación completa del DOM para interacciones dinámicas. El proyecto enfatiza código limpio, diseño responsivo y una experiencia de usuario intuitiva, ideal para aprender fundamentos de front-end y desarrollo de e-commerce.",

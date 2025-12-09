@@ -9,14 +9,15 @@
     },
     "cv": {
         "title": "Baixe meu currículo ou veja meu LinkedIn.",
-        "btn": "Download CV",
+        "btn": "Baixar CV",
         "linkdIn": "Perfil LinkedIn"
     },
     "btnHero": {
         "contact": "Entre em contato"
     },
     "btnsAll": {
-        "view": "Ver mas",
+        "view": "Ver mais",
+        "project": "Ver Projeto",
         "send": "Enviar mensagem"
     },
     "navbar": {

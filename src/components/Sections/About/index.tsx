@@ -80,14 +80,14 @@ export default function Welcome(){
                             <div className="flex justify-center items-center gap-6">
                                 <BtnHover 
                                 action="download"
-                                href="/assets/CV-Afonso-FullStack.pdf"
-                                text="Baixar Cv"
+                                href="/assets/cv-fullstack-web-afonso.pdf"
+                                text={tCCV('btn')}
                                 bgColorClass="bg-gray-800"
                                 hoverBgColorClass="hover:bg-gray-700"
                                 />
                                 <BtnHover
                                     action="linkedin"
-                                    href=""
+                                    href="https://www.linkedin.com/in/afonso-gesualdi-aaa9bb244/"
                                     text="LinkedIn"
                                     iconName="linkedin"
                                 />

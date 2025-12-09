@@ -17,6 +17,7 @@
     },
     "btnsAll": {
         "view": "Ver más",
+        "project": "Ver Proyecto",
         "send": "Enviar mensaje"
     },
     "navbar": {

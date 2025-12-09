@@ -53,7 +53,7 @@
             },
             "project2" : {
                 "title": "Aurea Design",
-                "image": "/assets/mockups/mockup-vidaplus.png",
+                "image": "/assets/mockups/aurea.png",
                 "description": "Criação de uma página institucional para o estúdio de arquitetura Aurea Design, desenvolvida para destacar portfólios e serviços de forma visualmente sofisticada e funcional. O design reflete a estética minimalista e contemporânea do estúdio, com foco em experiência do usuário, fluidez e comunicação visual estratégica. O projeto reforça a presença digital da marca e amplia sua autoridade no mercado de design e arquitetura.",
                 "list": [
                     "Pagina Web Institucional",
@@ -123,6 +123,32 @@
                     "link": ""
                 },
                 "project2" : {
+                    "title": "Éclat Admin",
+                    "image": "/assets/mockups/eclat_admin.jpg",
+                    "description": "Desenvolvimento de um sistema de gestão e controle para uma agência de modelos, uma extensão do projeto acadêmico para Portais Eletrônicos. Um sistema que integra um completo sistema de gestão para criar, editar, ler e eliminar informações, sejam elas: serviços, modelos, usuários, controle de pagamentos e estatísticas. Uso de uma plataforma jQuill para a gestão de publicações, além do uso do Chart.js para a visualização de estatísticas.",
+                    "list": [
+                        "Software as Service",
+                        "Agency Portal",
+                        "Admin CRUD Panel",
+                        "Integration with Chart.js",
+                        "Blog Integration with Quill.js"
+                    ],
+                    "tech": [
+                        "Laravel",
+                        "PHP",
+                        "JavaScript",
+                        "Chart",
+                        "QuillJs",
+                        "Tailwindcss",
+                        "Css",
+                        "MySql",
+                        "Mamp",
+                        "Vite",
+                        "ORM"
+                    ],
+                    "link": ""
+                },
+                "project3" : {
                     "title": "DalyFlix",
                     "image": "/assets/mockups/devfilms.jpg",
                     "description": "Desenvolvimento de uma plataforma web interativa para compartilhar opiniões sobre filmes lançados e que estão prestes a ser lançados. O sistema foi criado com Vue.js no frontend e PHP puro como backend, comunicando-se com um banco de dados MySQL gerenciado a partir do PhpMyAdmin. Os usuários podem avaliar filmes com um sistema de reações visuais — bomba, fogo, pipoca ou balança —, promovendo uma experiência dinâmica, divertida e social. Projeto acadêmico com foco em integração front-back e gerenciamento de dados.",
@@ -146,7 +172,7 @@
                     ],
                     "link": ""
                 },
-                "project3": {
+                "project4": {
                     "title": "Malba Galery",
                     "image": "/assets/mockups/mockup-malbagallery.png",
                     "description": "Desenvolvimento de um e-commerce inspirado no Museu MALBA, criado para exibir e comercializar produtos artísticos. O projeto foi desenvolvido inteiramente com PHP puro e JavaScript, gerenciando conteúdo dinâmico via DOM e conectado a um banco de dados MySQL através do PHPMyAdmin. O design visual, construído com UiKit, prioriza elegância, minimalismo e uma experiência de navegação fluida.",
@@ -167,7 +193,7 @@
                     ],
                     "link": ""
                 },
-                "project4": {
+                "project5": {
                     "title": "Lexus Landing Page Promotion",
                     "image": "/assets/mockups/mockup-lexus.png",
                     "description": "Primeiro projeto com React.js usando TypeScript e Styled components, desenvolvido como uma landing page promocional da linha de automóveis Lexus. O projeto foca em design limpo, moderno, performance otimizada e experiência do usuário envolvente para destacar características do veículo e reforçar o branding. Ideal para campanhas de marketing digital e promoção de produtos.",
@@ -189,7 +215,7 @@
                     "link": "https://lexus-app.vercel.app",
                     "github": "https://github.com/gesualdiafonso/lexus-app.git"
                 },
-                "project5": {
+                "project6": {
                     "title": "Spectra Labs",
                     "image": "/assets/mockups/mockup-spectra.png",
                     "description": "Primeiro projeto desenvolvido com JavaScript Vanilla e Bootstrap para responsividade. Spectra Labs é uma plataforma web de e-commerce com páginas de detalhes de produtos e manipulação completa do DOM para interações dinâmicas. O projeto valoriza código limpo, design responsivo e experiência de usuário intuitiva, sendo ideal para prática de front-end e implementação de comércio online.",
