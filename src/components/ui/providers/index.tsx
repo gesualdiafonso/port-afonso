@@ -19,7 +19,7 @@ export default function Provider({ children }: Props){
                 const section = ['common', 'page'];
                 const imports = await Promise.all(
                     section.map((section) => 
-                    import (`@/locales/${locale}/${section}.json`).then((mod) => ({
+                    import (`@/locale/${locale}/${section}.json`).then((mod) => ({
                         [section]:mod.default
                     })))
                 );
