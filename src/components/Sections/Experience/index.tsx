@@ -6,11 +6,13 @@ export default function Experience() {
     const t = useTranslations("page.experience");
 
     // Número total de experiências
-    const totalItems = 5;
+    const items = t.raw("items");
+
+    const totalItems = items.length;
 
     const data = Array.from({ length: totalItems }).map((_, index) => {
         const contentsLength = t.raw(`items.${index}.contents`).length;
-
+        
         return {
             title: t(`items.${index}.title`),
             job: t(`items.${index}.job`),
@@ -36,7 +38,7 @@ export default function Experience() {
     });
 
     return (
-        <section className="relative w-full h-full max-h-[1980px] overflow-clip">
+        <section className="relative w-full h-full overflow-clip">
             <h3 className="text-center font-bold text-3xl py-10">{t('title')}</h3>
             <Timeline data={data} />
         </section>

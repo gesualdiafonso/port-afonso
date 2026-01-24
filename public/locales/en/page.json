@@ -308,6 +308,19 @@
         "title": "My Work Experience.",
         "items": [
         {
+            "title": "Cognizant Technology Solutions - IT Operations System",
+            "job": "Service Desk Agent",
+            "date": "2026",
+            "contents": [
+            "Cross-level technical support for users in Latin America, Spain, and Portugal, second-level ticket resolutions, metrics, and SLAs.",
+            "IT service updates or repairs.",
+            "Review and update of security criteria.",
+            "Classification of incidents based on priority and impact.",
+            "Use of software: Active Directory, ServiceNow, Microsoft Office, SAP, VPN, Windows Tools, Okta Services, and others.",
+            "Stacks: Bash, CMD, PoweSheel, Shell Package"
+            ]
+        },
+        {
             "title": "Funeraria Vida-Plus - Institutional Website",
             "job": "Full Stack Developer",
             "date": "2024 - 2025",

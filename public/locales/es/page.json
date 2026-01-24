@@ -306,7 +306,20 @@
         "title": "Mi Experiencia Profesional.",
         "items": [
         {
-            "title": "Funeraria Vida-Plus - Sitio Web Institucional",
+            "title": "Cognizant Technology Solutions - IT Operations System",
+            "job": "Service Desk Agent",
+            "date": "2026",
+            "contents": [
+            "Soporte técnico de nivel cruzado para usuarios en Latinoamérica, España y Portugal, resolución de tickets de segundo nivel, métricas y acuerdos de nivel de servicio (SLA).",
+            "Actualizaciones o reparaciones de servicios de TI.",
+            "Revisión y actualización de criterios de seguridad.",
+            "Clasificación de incidentes según prioridad e impacto.",
+            "Uso de software: Active Directory, ServiceNow, Microsoft Office, SAP, VPN, herramientas de Windows, servicios Okta y otros.",
+            "Stacks: Bash, CMD, PoweSheel, Shell Package"
+            ]
+        },
+        {
+            "title": "Funeraria Vida-Plus - Web Institucional",
             "job": "Full Stack Developer",
             "date": "2024 - 2025",
             "contents": [
@@ -319,7 +332,7 @@
             ]
         },
         {
-            "title": "Funeraria do Paulinho - Sitio Web Institucional",
+            "title": "Funeraria do Paulinho - Web Institucional",
             "job": "Web Developer",
             "date": "2023 - 2024",
             "contents": [
@@ -332,7 +345,7 @@
             ]
         },
         {
-            "title": "Aurea Studio - Sitio Web de Portafolio",
+            "title": "Aurea Studio - Web de Portafolio",
             "job": "Full Stack Developer",
             "date": "2024 - 2025",
             "contents": [

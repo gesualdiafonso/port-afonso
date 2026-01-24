@@ -312,12 +312,12 @@
             "job": "Service Desk Agent",
             "date": "2026",
             "contents": [
-            "Suporte técnico cruzado para usuários na América Latina, Espanha e Portugal, resoluções de tickets de segundo nível, métricas e SLAs.",
-            "Atualizações ou reparos de serviços de TI.",
-            "Revisão e atualização de critérios de segurança.",
-            "Classificação de incidentes com base na prioridade e no impacto.",
-            "Uso de software: Active Directory, ServiceNow, Microsoft Office, SAP, VPN, Ferramentas Windows, Okta Services e outros.",
-            "Stacks: Bash, CMD, PoweSheel, Shell Package"
+                "Suporte técnico cruzado para usuários na América Latina, Espanha e Portugal, resoluções de tickets de segundo nível, métricas e SLAs.",
+                "Atualizações ou reparos de serviços de TI.",
+                "Revisão e atualização de critérios de segurança.",
+                "Classificação de incidentes com base na prioridade e no impacto.",
+                "Uso de software: Active Directory, ServiceNow, Microsoft Office, SAP, VPN, Ferramentas Windows, Okta Services e outros.",
+                "Stacks: Bash, CMD, PoweSheel, Shell Package"
             ]
         },
         {
