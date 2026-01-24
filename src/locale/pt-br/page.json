@@ -308,6 +308,19 @@
         "title": "Minha Experiência Profissional.",
         "items": [
         {
+            "title": "Service Desk Agent - Cognizant Technology Solutions",
+            "job": "Programmer Agent IT",
+            "date": "2026",
+            "contents": [
+            "Suporte técnico cruzado para usuários na América Latina, Espanha e Portugal, resoluções de tickets de segundo nível, métricas e SLAs.",
+            "Atualizações ou reparos de serviços de TI.",
+            "Revisão e atualização de critérios de segurança.",
+            "Classificação de incidentes com base na prioridade e no impacto.",
+            "Uso de software: Active Directory, ServiceNow, Microsoft Office, SAP, VPN, Ferramentas Windows, Okta Services e outros.",
+            "Stacks: Bash, CMD, PoweSheel, Shell Package"
+            ]
+        },
+        {
             "title": "Funeraria Vida-Plus - Institucional Web Site",
             "job": "Full Stack Developer",
             "date": "2024 - 2025",
