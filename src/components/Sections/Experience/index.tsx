@@ -19,13 +19,18 @@ export default function Experience() {
             informacion: t.raw(`items.${index}.contents`), // array puro mantendo ordem
 
             content: (
-                <ul className="space-y-2">
-                    {Array.from({ length: contentsLength }).map((_, i) => (
-                        <li key={i} className="text-gray-300 leading-relaxed">
-                            {t(`items.${index}.contents.${i}`)}
-                        </li>
-                    ))}
-                </ul>
+                <div>
+                    <h4 className="font-bold text-xl md:text-2xl mb-2 text-cyan-500">
+                        {t(`items.${index}.job`)} |  {t(`items.${index}.date`)}
+                    </h4>
+                    <ul className="space-y-2">
+                        {Array.from({ length: contentsLength }).map((_, i) => (
+                            <li key={i} className="text-gray-300 leading-relaxed text-lg md:text-xl">
+                                {t(`items.${index}.contents.${i}`)}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             )
         };
     });

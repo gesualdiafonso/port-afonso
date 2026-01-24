@@ -8,6 +8,8 @@ import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
   title: string;
+  date: string;
+  job: string;
   content: React.ReactNode;
 }
 
@@ -47,7 +49,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-gray-950  border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
-              <h4 className="hidden md:block text-xl md:pl-20 md:text-4xl font-bold text-white ">
+              <h4 className="hidden md:block text-lg md:pl-20 md:text-3xl font-bold text-white ">
                 {item.title}
               </h4>
             </div>
