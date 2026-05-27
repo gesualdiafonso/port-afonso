@@ -3,7 +3,6 @@ import ProjectDetails from "../ProjectDetails";
 import { getTechIcon } from "@/lib/utils/getTechIcons";
 import { useTranslations } from "next-intl";
 
-
 interface BtnProjectViewProps {
   title: string;
   image: string;

@@ -49,7 +49,7 @@
                     "Express",
                     "Figma"
                 ],
-                "link": "https://vida-plus-sepia.vercel.app"
+                "link": "451"
             },
             "project2" : {
                 "title": "Aurea Design",
@@ -68,7 +68,7 @@
                     "Express",
                     "Figma"
                 ],
-                "link": ""
+                "link": "451"
             },
             "project3" : {
                 "title": "Funeraria do Paulinho",
@@ -120,7 +120,7 @@
                         "Vite",
                         "ORM"
                     ],
-                    "link": ""
+                    "link": "410"
                 },
                 "project2" : {
                     "title": "Éclat Admin",
@@ -146,7 +146,7 @@
                         "Vite",
                         "ORM"
                     ],
-                    "link": ""
+                    "link": "403"
                 },
                 "project3" : {
                     "title": "DalyFlix",
@@ -168,7 +168,7 @@
                         "Prettier",
                         "Vite"
                     ],
-                    "link": ""
+                    "link": "403"
                 },
                 "project4": {
                     "title": "Malba Galery",
@@ -189,7 +189,7 @@
                         "JavaScript",
                         "Figma"
                     ],
-                    "link": ""
+                    "link": "403"
                 },
                 "project5": {
                     "title": "Lexus Landing Page Promotion",
@@ -256,7 +256,7 @@
                         "TailwindCSS",
                         "Vite"
                     ],
-                    "link": "https://github.com/gesualdiafonso/electron-curso.git"
+                    "link": "403"
                 },
                 "project2": {
                     "title": "Van Gogh App PWA",

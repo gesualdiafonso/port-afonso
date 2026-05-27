@@ -2,7 +2,7 @@ import { motion } from "motion/react"
 import Image from "next/image"
 import { getTechIcon } from "@/lib/utils/getTechIcons";
 import { useTranslations } from "next-intl";
-
+import ProjectLinkButton from "../ProjectLinkButton";
 interface ProjectDetailsProps {
     title: string;
     image: string;
@@ -81,7 +81,8 @@ export default function ProjectDetails ({ title, image, description, list, tech,
                 </ul>
 
                 {/* BUTTON */}
-                <a
+                <ProjectLinkButton link={link} label={tc('project')} />
+                {/* <a
                     href={link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -103,7 +104,7 @@ export default function ProjectDetails ({ title, image, description, list, tech,
                             <path strokeLinecap="round" strokeLinejoin="round" d="M13 6l6 6-6 6" />
                         </svg>
                     </div>
-                </a>
+                </a> */}
             </div>
         </motion.div>
     </div>
