@@ -354,6 +354,32 @@
                     ],
                     "tech": ["Terraform", "AWS", "EC2", "S3", "VPC", "IAM"],
                     "link": "https://github.com/gesualdiafonso/infra-project"
+                },
+                "project5": {
+                    "title": "Automação de Desbloqueio de Contas AD & Sessões",
+                    "image": "/assets/mockups/ad-automation.png",
+                    "description": "Framework modular em PowerShell criado para equipes de Helpdesk e Suporte de TI gerenciarem contas do Active Directory sem precisar de permissões de administrador de domínio. Desbloqueia contas travadas, audita tentativas de senha incorreta e eventos de lockout em Controladores de Domínio, e localiza ou finaliza remotamente sessões travadas. Roda nativamente a partir de compartilhamentos de rede, com configuração via JSON e log de auditoria em formato delimitado por pipe para cada ação do operador.",
+                    "list": [
+                        "Automação de Active Directory",
+                        "Ferramentas de Helpdesk",
+                        "Log de Auditoria",
+                        "Gestão de Sessões Remotas"
+                    ],
+                    "tech": ["PowerShell", "Active Directory", "RSAT", "JSON", "Windows Server"],
+                    "link": ""
+                },
+                "project6": {
+                    "title": "Suíte de Mitigação de Lockouts Recorrentes no Windows",
+                    "image": "/assets/mockups/lockout-mitigation.png",
+                    "description": "Conjunto automatizado de scripts PowerShell que diagnostica e elimina lockouts recorrentes de contas do Active Directory causados por credenciais em cache desatualizadas, mapeamentos de rede órfãos, perfis de Wi-Fi corrompidos e sessões de aplicativos em segundo plano retendo tokens antigos. Estruturado em três módulos encadeáveis, cobrindo limpeza de credenciais/Kerberos, remediação de rede e Wi-Fi, e limpeza de aplicativos/sessões de navegador, alinhado a um padrão interno de knowledge base de TI para resolução de lockouts repetidos.",
+                    "list": [
+                        "Correção de Causa Raiz",
+                        "Limpeza de Credenciais & Kerberos",
+                        "Troubleshooting de Rede",
+                        "Automação de Suporte de TI"
+                    ],
+                    "tech": ["PowerShell", "Active Directory", "Kerberos", "TCP/IP", "Windows"],
+                    "link": ""
                 }
             }
         }

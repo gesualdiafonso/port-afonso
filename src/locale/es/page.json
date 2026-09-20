@@ -352,6 +352,32 @@
                     ],
                     "tech": ["Terraform", "AWS", "EC2", "S3", "VPC", "IAM"],
                     "link": "https://github.com/gesualdiafonso/infra-project"
+                },
+                "project5": {
+                    "title": "Automatización de Desbloqueo de Cuentas AD & Sesiones",
+                    "image": "/assets/mockups/ad-automation.png",
+                    "description": "Framework modular en PowerShell creado para equipos de Helpdesk y Soporte de TI que gestionan cuentas de Active Directory sin necesidad de permisos de administrador de dominio. Desbloquea cuentas bloqueadas, audita intentos fallidos de contraseña y eventos de bloqueo en Controladores de Dominio, y localiza o cierra remotamente sesiones colgadas. Se ejecuta de forma nativa desde unidades de red compartidas, con configuración vía JSON y registro de auditoría en formato delimitado por pipes para cada acción del operador.",
+                    "list": [
+                        "Automatización de Active Directory",
+                        "Herramientas de Helpdesk",
+                        "Registro de Auditoría",
+                        "Gestión de Sesiones Remotas"
+                    ],
+                    "tech": ["PowerShell", "Active Directory", "RSAT", "JSON", "Windows Server"],
+                    "link": ""
+                },
+                "project6": {
+                    "title": "Suite de Mitigación de Bloqueos Recurrentes en Windows",
+                    "image": "/assets/mockups/lockout-mitigation.png",
+                    "description": "Conjunto automatizado de scripts PowerShell que diagnostica y elimina bloqueos recurrentes de cuentas de Active Directory causados por credenciales en caché desactualizadas, unidades de red huérfanas, perfiles de Wi-Fi corruptos y sesiones de aplicaciones en segundo plano que retienen tokens antiguos. Estructurado en tres módulos encadenables que cubren limpieza de credenciales/Kerberos, remediación de red y Wi-Fi, y limpieza de aplicaciones/sesiones de navegador, alineado con un estándar interno de knowledge base de TI para la resolución de bloqueos repetidos.",
+                    "list": [
+                        "Corrección de Causa Raíz",
+                        "Limpieza de Credenciales & Kerberos",
+                        "Resolución de Problemas de Red",
+                        "Automatización de Soporte de TI"
+                    ],
+                    "tech": ["PowerShell", "Active Directory", "Kerberos", "TCP/IP", "Windows"],
+                    "link": ""
                 }
             }
         }

@@ -355,6 +355,32 @@
                     ],
                     "tech": ["Terraform", "AWS", "EC2", "S3", "VPC", "IAM"],
                     "link": "https://github.com/gesualdiafonso/infra-project"
+                },
+                "project5": {
+                    "title": "AD Account Unlock & Session Automation",
+                    "image": "/assets/mockups/ad-automation.png",
+                    "description": "Modular PowerShell framework built for Helpdesk and IT Support teams to manage Active Directory accounts without requiring domain admin privileges. Unlocks locked accounts, audits failed password attempts and lockout events across Domain Controllers, and locates or force-logs-off stuck remote sessions. Runs natively from shared network drives with JSON-based configuration and pipe-delimited audit logging for every operator action.",
+                    "list": [
+                        "Active Directory Automation",
+                        "Helpdesk Tooling",
+                        "Audit Logging",
+                        "Remote Session Management"
+                    ],
+                    "tech": ["PowerShell", "Active Directory", "RSAT", "JSON", "Windows Server"],
+                    "link": ""
+                },
+                "project6": {
+                    "title": "Windows Repeat Lockout Mitigation Suite",
+                    "image": "/assets/mockups/lockout-mitigation.png",
+                    "description": "Automated PowerShell toolset that diagnoses and eliminates recurring Active Directory account lockouts caused by stale cached credentials, orphaned network drives, corrupted Wi-Fi profiles, and background app sessions holding old tokens. Structured as three chainable modules covering credential/Kerberos cleanup, network and Wi-Fi remediation, and application/browser session cleanup, built to align with an internal IT knowledge-base standard for repeat-lockout resolution.",
+                    "list": [
+                        "Root-cause Remediation",
+                        "Credential & Kerberos Cleanup",
+                        "Network Troubleshooting",
+                        "IT Support Automation"
+                    ],
+                    "tech": ["PowerShell", "Active Directory", "Kerberos", "TCP/IP", "Windows"],
+                    "link": ""
                 }
             }
         }
