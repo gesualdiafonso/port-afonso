@@ -48,7 +48,8 @@
                     "Express",
                     "Figma"
                 ],
-                "link": "https://vida-plus-sepia.vercel.app"
+                
+                "link": "https://funerarividaplus.vercel.app/"
             },
             "project2" : {
                 "title": "Aurea Design",
@@ -67,7 +68,7 @@
                     "Express",
                     "Figma"
                 ],
-                "link": ""
+                "link": "https://aureadesign.vercel.app/"
             },
             "project3" : {
                 "title": "Funeraria do Paulinho",
@@ -119,7 +120,7 @@
                         "Vite",
                         "ORM"
                     ],
-                    "link": ""
+                    "link": "410"
                 },
                 "project2" : {
                     "title": "Éclat Admin",
@@ -145,7 +146,7 @@
                         "Vite",
                         "ORM"
                     ],
-                    "link": ""
+                    "link": "403"
                 },
                 "project3" : {
                     "title": "DalyFlix",
@@ -169,7 +170,7 @@
                         "Prettier",
                         "Vite"
                     ],
-                    "link": ""
+                    "link": "403"
                 },
                 "project4": {
                     "title": "Malba Gallery",
@@ -190,7 +191,7 @@
                         "JavaScript",
                         "Figma"
                     ],
-                    "link": ""
+                    "link": "403"
                 },
                 "project5": {
                     "title": "Lexus Landing Page Promotion",
