@@ -80,7 +80,7 @@ export default function Welcome(){
                             <div className="flex justify-center items-center gap-6">
                                 <BtnHover 
                                 action="download"
-                                href="/assets/cv-fullstack-web-afonso.pdf"
+                                href="/assets/cv-arruda_afonso.pdf"
                                 text={tCCV('btn')}
                                 bgColorClass="bg-gray-800"
                                 hoverBgColorClass="hover:bg-gray-700"
