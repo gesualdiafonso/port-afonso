@@ -31,7 +31,6 @@
     "projects": {
         "title": "Todos os meus projetos selecionados.",
         "freelancers": {
-            "title": "Freelancers",
             "project1" : {
                 "title": "Vida Plus",
                 "image": "/assets/mockups/mockup-vidaplus.png",
@@ -300,6 +299,61 @@
                         "Vite"
                     ],
                     "link": "https://space-animated-vue.vercel.app"
+                }
+            },
+            "infrastructure": {
+                "project1": {
+                    "title": "Ansible Lab – Provisionamento Automatizado",
+                    "image": "/assets/mockups/ansible-lab.png",
+                    "description": "Laboratório prático que provisiona uma infraestrutura de três nós (control node, servidor de aplicação e servidor de banco de dados) usando Vagrant para as VMs e Ansible para gerenciamento de configuração. Automatiza totalmente o deploy de uma API REST Java/Spring Boot com MySQL, desde a configuração do SO até o service, usando playbooks, roles e roles da comunidade via Ansible Galaxy.",
+                    "list": [
+                        "Provisionamento de Infraestrutura",
+                        "Gerenciamento de Configuração",
+                        "Arquitetura Multi-nó",
+                        "Deploy Automatizado"
+                    ],
+                    "tech": ["Ansible", "Vagrant", "VirtualBox", "Java", "Spring Boot", "MySQL", "Linux", "Systemd"],
+                    "link": "https://github.com/gesualdiafonso/ansible-lab"
+                },
+                "project2": {
+                    "title": "Laboratório SysAdmin Multiplataforma",
+                    "image": "/assets/mockups/sysadmin-lab.png",
+                    "description": "Laboratório de administração de sistemas multiplataforma combinando Windows como host de virtualização, macOS como cliente de testes e duas VMs CentOS Stream 9. Abrange rede estática, hardening de SSH, DNS primário/secundário com BIND, Apache com múltiplos virtual hosts e replicação master-slave no MariaDB, simulando de ponta a ponta a rede de uma empresa heterogênea de pequeno porte.",
+                    "list": [
+                        "Administração Linux",
+                        "DNS (BIND)",
+                        "Configuração de Servidor Web",
+                        "Replicação de Banco de Dados",
+                        "Hardening de SSH"
+                    ],
+                    "tech": ["CentOS Stream 9", "Windows", "macOS", "BIND", "Apache", "MariaDB", "SSH", "Bash"],
+                    "link": "https://github.com/gesualdiafonso/sysadmin-multiplatform-lab"
+                },
+                "project3": {
+                    "title": "Automação Logística & Integração de Workflows",
+                    "image": "/assets/mockups/logistics-automation.png",
+                    "description": "Duas provas de conceito de automação para operações logísticas. Uma usa n8n com a API da OpenAI para processar em tempo real webhooks de pacotes retidos e gerar respostas automáticas ao cliente; a outra é um script Python que simula eventos de depósito/frota e envia alertas estruturados a um webhook do n8n via REST.",
+                    "list": [
+                        "Automação de Workflows",
+                        "Integração via Webhook",
+                        "Respostas Assistidas por IA",
+                        "APIs REST"
+                    ],
+                    "tech": ["n8n", "Python", "OpenAI API", "Webhooks", "JSON", "Node.js"],
+                    "link": "https://github.com/gesualdiafonso/logistic-events-py"
+                },
+                "project4": {
+                    "title": "Infraestrutura AWS como Código com Terraform",
+                    "image": "/assets/mockups/infra-terraform.png",
+                    "description": "Projeto de Infrastructure as Code que provisiona um ambiente básico na AWS (Security Group, instância EC2 e bucket S3) usando módulos Terraform reutilizáveis, compartilhados entre ambientes dev e prod separados, mantendo variáveis isoladas por ambiente sem duplicar lógica.",
+                    "list": [
+                        "Infrastructure as Code",
+                        "Provisionamento em Nuvem",
+                        "Configuração Multi-ambiente",
+                        "Terraform Modular"
+                    ],
+                    "tech": ["Terraform", "AWS", "EC2", "S3", "VPC", "IAM"],
+                    "link": "https://github.com/gesualdiafonso/infra-project"
                 }
             }
         }

@@ -31,7 +31,6 @@
     "projects": {
         "title": "All my Selected Projects",
         "freelancers": {
-            "title": "Freelancers",
             "project1" : {
                 "title": "Vida Plus",
                 "description": "Complete development of an institutional website for a company in the health and wellness sector, focusing on user experience, performance, and digital credibility. The project was designed to convey confidence and modernity, reinforcing the brand's visual identity through a clean and responsive design.",
@@ -300,6 +299,61 @@
                         "Vite"
                     ],
                     "link": "https://space-animated-vue.vercel.app"
+                }
+            },
+            "infrastructure": {
+                "project1": {
+                    "title": "Ansible Lab – Automated Provisioning",
+                    "image": "/assets/mockups/ansible-lab.png",
+                    "description": "Hands-on lab that provisions a three-node infrastructure (control node, app server, and database server) using Vagrant for the VMs and Ansible for configuration management. Fully automates the deployment of a Java/Spring Boot REST API backed by MySQL, from OS setup to service configuration, using playbooks, roles, and Ansible Galaxy community roles.",
+                    "list": [
+                        "Infrastructure Provisioning",
+                        "Configuration Management",
+                        "Multi-node Architecture",
+                        "Automated Deployment"
+                    ],
+                    "tech": ["Ansible", "Vagrant", "VirtualBox", "Java", "Spring Boot", "MySQL", "Linux", "Systemd"],
+                    "link": "https://github.com/gesualdiafonso/ansible-lab"
+                },
+                "project2": {
+                    "title": "SysAdmin Multiplatform Lab",
+                    "image": "/assets/mockups/sysadmin-lab.png",
+                    "description": "Multi-platform administration lab combining Windows as the hypervisor host, macOS as the test client, and two CentOS Stream 9 VMs. Covers static networking, SSH hardening, primary/secondary DNS with BIND, Apache with multiple virtual hosts, and MariaDB master-slave replication, simulating a small heterogeneous company network end to end.",
+                    "list": [
+                        "Linux Administration",
+                        "DNS (BIND)",
+                        "Web Server Configuration",
+                        "Database Replication",
+                        "SSH Hardening"
+                    ],
+                    "tech": ["CentOS Stream 9", "Windows", "macOS", "BIND", "Apache", "MariaDB", "SSH", "Bash"],
+                    "link": "https://github.com/gesualdiafonso/sysadmin-multiplatform-lab"
+                },
+                "project3": {
+                    "title": "Logistics Automation & Integration Workflows",
+                    "image": "/assets/mockups/logistics-automation.png",
+                    "description": "Two proof-of-concept automation workflows for logistics operations. One uses n8n with the OpenAI API to process delayed-package webhooks in real time and auto-generate customer responses; the other is a Python script that simulates warehouse/fleet events and dispatches structured alerts to an n8n webhook over REST.",
+                    "list": [
+                        "Workflow Automation",
+                        "Webhook Integration",
+                        "AI-assisted Responses",
+                        "REST APIs"
+                    ],
+                    "tech": ["n8n", "Python", "OpenAI API", "Webhooks", "JSON", "Node.js"],
+                    "link": "https://github.com/gesualdiafonso/logistic-events-py"
+                },
+                "project4": {
+                    "title": "AWS Infrastructure as Code with Terraform",
+                    "image": "/assets/mockups/infra-terraform.png",
+                    "description": "Infrastructure as Code project that provisions a basic AWS environment (Security Group, EC2 instance, and S3 bucket) using reusable Terraform modules shared across separate dev and prod environments, keeping variables isolated per environment with no duplicated logic.",
+                    "list": [
+                        "Infrastructure as Code",
+                        "Cloud Provisioning",
+                        "Multi-environment Setup",
+                        "Modular Terraform"
+                    ],
+                    "tech": ["Terraform", "AWS", "EC2", "S3", "VPC", "IAM"],
+                    "link": "https://github.com/gesualdiafonso/infra-project"
                 }
             }
         }

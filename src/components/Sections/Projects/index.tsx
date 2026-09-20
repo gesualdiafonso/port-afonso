@@ -11,19 +11,33 @@ export default function Projects(){
     const raw = messages.page.projects
 
     // Normalizo para un array
+    const freelancers = Object.values(raw?.freelancers ?? {});
+    const fullstack = Object.values(raw?.academyc?.fullstack ?? {});
+    const desktop = Object.values(raw?.academyc?.desktop ?? {});
+    const infrastructure = Object.values(
+        raw?.academyc?.infrastructure ?? {}
+    );
+
     const allProjects = [
-        ...Object.values(raw.freelancers).map((p: any) => ({
+        ...freelancers.map((p: any) => ({
             ...p,
-            category: "freelancer"
+            category: "freelancer",
         })),
-        ...Object.values(raw.academyc.fullstack).map((p: any) =>({
+
+        ...fullstack.map((p: any) => ({
             ...p,
-            category: "fullstack"
+            category: "fullstack",
         })),
-        ...Object.values(raw.academyc.desktop).map((p: any) => ({
+
+        ...desktop.map((p: any) => ({
             ...p,
-            category: "desktop"
-        }))
+            category: "desktop",
+        })),
+
+        ...infrastructure.map((p: any) => ({
+            ...p,
+            category: "infrastructure",
+        })),
     ];
     
     const x = useMotionValue(0);
@@ -53,7 +67,7 @@ export default function Projects(){
                         <h2 className="text-3xl text-center md:text-left font-bold">{raw.title}</h2>
                         {/* Filtro */}
                         <div className="flex flex-col md:flex-row gap-4 mt-10">
-                            {["all", "freelancer", "fullstack", "desktop"].map(type => (
+                            {["all", "freelancer", "fullstack", "desktop", "infrastructure"].map(type => (
                                 <button
                                     key={type}
                                     onClick={() => setFilter(type)}
